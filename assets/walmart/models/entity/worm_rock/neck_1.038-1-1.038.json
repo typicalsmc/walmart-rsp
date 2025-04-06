@@ -1,0 +1,10 @@
+{
+	"parent": "walmart:entity/worm_rock/neck",
+	"display": {
+		"head": {
+			"translation": [0, -3.2, 0],
+			"scale": [1.038, 1, 1.038],
+			"rotation": [0, 0, 0]
+		}
+	}
+}

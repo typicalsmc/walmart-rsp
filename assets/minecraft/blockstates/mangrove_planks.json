@@ -1,0 +1,9 @@
+{
+	"variants": {
+		"": [
+			{ "model": "minecraft:block/mangrove_planks", "weight": 3 },
+			{ "model": "minecraft:block/mangrove_planks2", "weight": 2 },
+			{ "model": "minecraft:block/mangrove_planks3", "weight": 1 }
+		]
+	}
+}

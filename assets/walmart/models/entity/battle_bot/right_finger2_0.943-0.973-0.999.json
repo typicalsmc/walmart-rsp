@@ -1,0 +1,10 @@
+{
+	"parent": "walmart:entity/battle_bot/right_finger2",
+	"display": {
+		"head": {
+			"translation": [0, -3.2864, 0],
+			"scale": [0.943, 0.973, 0.999],
+			"rotation": [0, 0, 0]
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"parent": "walmart:entity/double_mushroom/top_up",
+	"display": {
+		"head": {
+			"translation": [0, 6.72, 0],
+			"scale": [3.2, 3.2, 3.2],
+			"rotation": [0, 0, 0]
+		}
+	}
+}

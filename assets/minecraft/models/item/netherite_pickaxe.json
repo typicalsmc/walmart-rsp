@@ -1,0 +1,1 @@
+{"overrides":[{"predicate":{"custom_model_data":1},"model":"walmart:items/space_drill_5"}],"parent":"minecraft:item/handheld","textures":{"layer0":"minecraft:item/netherite_pickaxe"}}

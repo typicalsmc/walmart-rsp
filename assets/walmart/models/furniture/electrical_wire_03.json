@@ -1,0 +1,64 @@
+{
+	"credit": "Made by DisneyArchitect",
+	"parent": "walmart:display_parents/furniture",
+	"textures": {
+		"0": "walmart:furniture/electrical_wire",
+		"particle": "walmart:furniture/electrical_wire"
+	},
+	"elements": [
+		{
+			"from": [7.625, -0.125, 9.5],
+			"to": [8.375, 0.625, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.75, 0, 9.75]},
+			"faces": {
+				"east": {"uv": [12, 0, 13, 1], "texture": "#0"},
+				"west": {"uv": [12, 0, 13, 1], "texture": "#0"},
+				"up": {"uv": [12, 0, 13, 3], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [12, 0, 13, 3], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.75, 0, 6],
+			"to": [8.25, 0.5, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.75, 0, 6]},
+			"faces": {
+				"north": {"uv": [6, 4, 4, 6], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [0, 13, 16, 15], "texture": "#0"},
+				"south": {"uv": [6, 4, 4, 6], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [16, 13, 0, 15], "texture": "#0"},
+				"up": {"uv": [16, 13, 0, 15], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [16, 13, 0, 15], "rotation": 270, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [-1.75, 5.75, 13],
+			"scale": [1.77, 1.77, 1.77]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [-1.75, 5.75, 13],
+			"scale": [1.77, 1.77, 1.77]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 225, 0],
+			"translation": [0, 14.25, 0],
+			"scale": [1.62, 1.62, 1.62]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"translation": [0, 14.25, 0],
+			"scale": [1.62, 1.62, 1.62]
+		},
+		"ground": {
+			"translation": [0, 5.25, 0]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0.5, 20, 0],
+			"scale": [2.99, 2.99, 2.99]
+		}
+	}
+}

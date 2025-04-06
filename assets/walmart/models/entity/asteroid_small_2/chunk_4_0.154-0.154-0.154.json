@@ -1,0 +1,10 @@
+{
+	"parent": "walmart:entity/asteroid_small_2/chunk_4",
+	"display": {
+		"head": {
+			"translation": [0, -5.9072, 0],
+			"scale": [0.154, 0.154, 0.154],
+			"rotation": [0, 0, 0]
+		}
+	}
+}

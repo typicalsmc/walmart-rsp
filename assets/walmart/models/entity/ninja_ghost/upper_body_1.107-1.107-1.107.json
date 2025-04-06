@@ -1,0 +1,10 @@
+{
+	"parent": "walmart:entity/ninja_ghost/upper_body",
+	"display": {
+		"head": {
+			"translation": [0, -2.8576, 0],
+			"scale": [1.107, 1.107, 1.107],
+			"rotation": [0, 0, 0]
+		}
+	}
+}

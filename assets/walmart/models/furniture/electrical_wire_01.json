@@ -1,0 +1,77 @@
+{
+	"credit": "Made by DisneyArchitect",
+	"parent": "walmart:display_parents/furniture",
+	"textures": {
+		"0": "walmart:furniture/electrical_wire",
+		"particle": "walmart:furniture/electrical_wire"
+	},
+	"elements": [
+		{
+			"from": [7.25, -0.125, 7.625],
+			"to": [7.75, 0.625, 8.375],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, 0, 8.25]},
+			"faces": {
+				"north": {"uv": [12, 0, 13, 1], "texture": "#0"},
+				"south": {"uv": [12, 0, 13, 1], "texture": "#0"},
+				"up": {"uv": [12, 0, 13, 3], "texture": "#0"},
+				"down": {"uv": [12, 0, 13, 3], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.75, 0, 8.25],
+			"to": [8.25, 0.5, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.75, 0, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 2], "texture": "#missing"},
+				"east": {"uv": [2, 4, 0, 11], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [6, 4, 4, 6], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [2, 11, 0, 4], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [0, 4, 2, 11], "texture": "#0"},
+				"down": {"uv": [2, 4, 0, 11], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"from": [6, 0, 7.75],
+			"to": [8.25, 0.5, 8.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0.25, 8]},
+			"faces": {
+				"north": {"uv": [6, 4, 4, 13], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [6, 4, 4, 6], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [4, 4, 6, 13], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [6, 4, 4, 6], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [2, 4, 4, 13], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [2, 4, 4, 13], "rotation": 90, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [-1.75, 5.75, 13],
+			"scale": [1.77, 1.77, 1.77]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [-1.75, 5.75, 13],
+			"scale": [1.77, 1.77, 1.77]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 225, 0],
+			"translation": [3.25, 14.25, 0],
+			"scale": [1.62, 1.62, 1.62]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"translation": [3.25, 14.25, 0],
+			"scale": [1.62, 1.62, 1.62]
+		},
+		"ground": {
+			"translation": [0, 5.25, 0]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, 18.5, 0],
+			"scale": [2.99, 2.99, 2.99]
+		}
+	}
+}

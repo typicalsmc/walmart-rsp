@@ -1,0 +1,109 @@
+{
+	"credit": "Made with Blockbench, by EnderIzzy124",
+	"parent": "walmart:display_parents/furniture",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "walmart:furniture/big_portal",
+		"particle": "walmart:furniture/big_portal"
+	},
+	"elements": [
+		{
+			"name": "top_chunk",
+			"from": [2, 16, 7.4375],
+			"to": [14, 20, 9.5625],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 18, 8.5]},
+			"faces": {
+				"north": {"uv": [0, 2, 2, 8], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [0, 7.875, 2, 8], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [8, 2, 10, 8], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [0, 2, 2, 2.125], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [0, 2, 0.125, 8], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "mid_chunk",
+			"from": [-2, 4, 7.4375],
+			"to": [18, 16, 9.5625],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 10, 8.5]},
+			"faces": {
+				"north": {"uv": [2, 0, 8, 10], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [8, 0.125, 2, 0], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [2, 0, 8, 10], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [8, 10, 2, 9.875], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [2, 0, 2.125, 10], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [7.875, 0, 8, 10], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "mid_chunk",
+			"from": [-1.975, 15.775, 7.4625],
+			"to": [17.975, 4.325, 9.5375],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 9.5, 8.5]},
+			"faces": {
+				"north": {"uv": [8, 0, 2, 10], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [8, 1.0625, 2, 0], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [8, 0, 2, 10], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [2, 9.9375, 8, 8.875], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [6.875, 0, 7.9375, 10], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [2, 0, 3.0625, 10], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"name": "bottom_chunk",
+			"from": [2, 0, 7.4375],
+			"to": [14, 4, 9.5625],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2, 8.5]},
+			"faces": {
+				"north": {"uv": [8, 2, 10, 8], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [8, 7.875, 10, 8], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [0, 2, 2, 8], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [8, 2, 10, 2.125], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [9.875, 2, 10, 8], "rotation": 90, "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [58, 86, 0],
+			"translation": [0.25, 2.25, -3.75],
+			"scale": [0.41, 0.41, 0.41]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [58, 86, 0],
+			"translation": [0.25, 2.25, -3.75],
+			"scale": [0.41, 0.41, 0.41]
+		},
+		"firstperson_righthand": {
+			"rotation": [-27, -53, -32],
+			"translation": [0.25, 3.75, 0],
+			"scale": [0.23, 0.23, 0.23]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-27, -53, -32],
+			"translation": [0.25, 3.75, 0],
+			"scale": [0.23, 0.23, 0.23]
+		},
+		"ground": {
+			"rotation": [36, 25, 11],
+			"translation": [0, 5, 0],
+			"scale": [0.37, 0.37, 0.37]
+		},
+		"gui": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "beeg_portal",
+			"origin": [8, 10, 0],
+			"color": 0,
+			"boneType": "",
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

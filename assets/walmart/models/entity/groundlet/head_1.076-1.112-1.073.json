@@ -1,0 +1,10 @@
+{
+	"parent": "walmart:entity/groundlet/head",
+	"display": {
+		"head": {
+			"translation": [0, -2.8416, 0],
+			"scale": [1.076, 1.112, 1.073],
+			"rotation": [0, 0, 0]
+		}
+	}
+}

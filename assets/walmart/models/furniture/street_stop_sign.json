@@ -1,0 +1,46 @@
+{
+	"credit": "Made by Ziqqy using Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"1": "walmart:furniture/street_stop_sign",
+		"particle": "walmart:furniture/street_stop_sign"
+	},
+	"elements": [
+		{
+			"from": [7.75, 0, 7.75],
+			"to": [8.25, 11, 8.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.75, 0, 7.75]},
+			"faces": {
+				"north": {"uv": [4.508, 0.008, 4.992, 10.992], "texture": "#1"},
+				"east": {"uv": [4.508, 0.008, 4.992, 10.992], "texture": "#1"},
+				"south": {"uv": [4.508, 0.008, 4.992, 10.992], "texture": "#1"},
+				"west": {"uv": [4.508, 0.008, 4.992, 10.992], "texture": "#1"},
+				"up": {"uv": [5.492, 0.492, 5.008, 0.008], "texture": "#1"},
+				"down": {"uv": [5.492, 0.508, 5.008, 0.992], "texture": "#1"}
+			}
+		},
+		{
+			"from": [5.75, 7.5, 7.675],
+			"to": [10.25, 12, 7.675],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.75, 0, 7.8]},
+			"faces": {
+				"north": {"uv": [0.008, 0.008, 4.492, 4.492], "texture": "#1"},
+				"south": {"uv": [0.008, 4.508, 4.492, 8.992], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, 24, 0],
+			"scale": [4, 4, 4]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [7.75, 0, 7],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

@@ -1,0 +1,82 @@
+{
+	"credit": "Made by Ziqqy using Blockbench",
+	"parent": "walmart:display_parents/furniture",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "walmart:furniture/cables",
+		"particle": "walmart:furniture/cables"
+	},
+	"elements": [
+		{
+			"from": [7.34375, 0.1125, 7.625],
+			"to": [8.59375, 1.6125, 8.375],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0.95625, 4]},
+			"faces": {
+				"north": {"uv": [5.5, 0.75, 6.25, 1.375], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [6.25, 0.375, 5.5, 0.75], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [6.25, 0, 7, 0.625], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [6.25, 0.375, 5.5, 0], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [6.25, 0.625, 6.625, 1.25], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [6.625, 0.625, 7, 1.25], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"name": "inflate",
+			"from": [7.21875, -0.0125, 7.5],
+			"to": [8.71875, 1.7375, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0.89375, 4]},
+			"faces": {
+				"north": {"uv": [7.125, 1, 8, 1.75], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [8, 0.5, 7.125, 1], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [8, 0, 8.875, 0.75], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [8, 0.5, 7.125, 0], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [8, 0.75, 8.5, 1.5], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [8.5, 0.75, 9, 1.5], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"name": "inflate inverted",
+			"from": [8.71875, 1.7375, 8.5],
+			"to": [7.21875, -0.0125, 7.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0.89375, 4]},
+			"faces": {
+				"north": {"uv": [8.875, 0, 8, 0.75], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [7.125, 0.5, 8, 0], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [8, 1, 7.125, 1.75], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [7.125, 0.5, 8, 1], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [8.5, 1.5, 9, 0.75], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [8, 1.5, 8.5, 0.75], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.5, 0.425, 2],
+			"to": [8.5, 1.425, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.75, 0.675, 7.75]},
+			"faces": {
+				"north": {"uv": [11, 0, 11.5, 0.5], "texture": "#0"},
+				"east": {"uv": [7.375, 3.25, 13.375, 2.75], "texture": "#0"},
+				"south": {"uv": [11, 0.5, 11.5, 1], "texture": "#0"},
+				"west": {"uv": [13.375, 2.75, 7.375, 3.25], "texture": "#0"},
+				"up": {"uv": [7.375, 2.25, 13.375, 2.75], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [13.375, 3.25, 7.375, 3.75], "rotation": 90, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, 8.5, 0],
+			"scale": [1.48, 1.48, 1.48]
+		}
+	},
+	"groups": [
+		{
+			"name": "node",
+			"origin": [7.5, 0.5, -8],
+			"color": 0,
+			"boneType": "",
+			"children": [0, 1, 2]
+		},
+		3
+	]
+}

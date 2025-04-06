@@ -1,0 +1,10 @@
+{
+	"parent": "walmart:entity/worm_book/bowtie",
+	"display": {
+		"head": {
+			"translation": [0, -3.1968, 0],
+			"scale": [1.017, 1.001, 1.018],
+			"rotation": [0, 0, 0]
+		}
+	}
+}

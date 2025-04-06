@@ -1,0 +1,10 @@
+{
+	"parent": "walmart:entity/space_jellyfish/right_tentacles",
+	"display": {
+		"head": {
+			"translation": [0, -3.3792, 0],
+			"scale": [1.069, 0.944, 1.078],
+			"rotation": [0, 0, 0]
+		}
+	}
+}

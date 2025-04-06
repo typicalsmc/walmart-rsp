@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "walmart:items/ui_state_off",
+    "layer1": "walmart:items/ui_state_off"
+  }
+}

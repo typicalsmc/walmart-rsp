@@ -1,0 +1,35 @@
+{
+	"credit": "hatsondogs",
+	"parent": "walmart:display_parents/furniture",
+	"ambientocclusion": false,
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "walmart:furniture/tech_crates",
+		"particle": "walmart:furniture/tech_crates"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 4],
+			"to": [12, 8, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0, 6]},
+			"faces": {
+				"north": {"uv": [6.25, 4.25, 10.25, 8.25], "texture": "#0"},
+				"east": {"uv": [6.25, 4.25, 10.25, 8.25], "texture": "#0"},
+				"south": {"uv": [6.25, 4.25, 10.25, 8.25], "texture": "#0"},
+				"west": {"uv": [6.25, 4.25, 10.25, 8.25], "texture": "#0"},
+				"up": {"uv": [6.25, 0, 10.25, 4], "texture": "#0"},
+				"down": {"uv": [10.5, 0, 14.5, 4], "texture": "#0"}
+			}
+		}
+	],
+	"display": {},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"boneType": "",
+			"children": [0]
+		}
+	]
+}

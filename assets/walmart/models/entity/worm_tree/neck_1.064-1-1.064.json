@@ -1,0 +1,10 @@
+{
+	"parent": "walmart:entity/worm_tree/neck",
+	"display": {
+		"head": {
+			"translation": [0, -3.2, 0],
+			"scale": [1.064, 1, 1.064],
+			"rotation": [0, 0, 0]
+		}
+	}
+}

@@ -1,0 +1,1 @@
+{"textures":{"0":"walmart:entity/space_loach/space_loach_texture"},"elements":[{"faces":{"up":{"uv":[8.5,3.25,6,0],"texture":"#0","tintindex":0},"down":{"uv":[8.5,0,6,3.25],"texture":"#0","tintindex":0}},"to":[8.8,5,13.2],"from":[4.8,5,8],"rotation":{"angle":0,"axis":"y","origin":[8,5,8]}}],"display":{"head":{"translation":[0,5.6,0],"scale":[4,4,4],"rotation":[0,0,0]}}}

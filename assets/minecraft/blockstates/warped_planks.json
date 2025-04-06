@@ -1,0 +1,9 @@
+{
+	"variants": {
+		"": [
+			{ "model": "minecraft:block/warped_planks", "weight": 3 },
+			{ "model": "minecraft:block/warped_planks2", "weight": 1 },
+			{ "model": "minecraft:block/warped_planks3", "weight": 2 }
+		]
+	}
+}

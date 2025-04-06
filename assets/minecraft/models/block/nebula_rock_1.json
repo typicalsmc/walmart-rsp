@@ -1,0 +1,44 @@
+{
+	"credit": "Made by Ziqqy using Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"5": "block/nebula_rocks"
+	},
+	"elements": [
+		{
+			"from": [8, 0, 8],
+			"to": [14, 2, 16],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [11, 1, 12]},
+			"faces": {
+				"north": {"uv": [6.504, 4.504, 7.246, 4.746], "texture": "#5"},
+				"east": {"uv": [4.004, 7.629, 4.996, 7.871], "texture": "#5"},
+				"south": {"uv": [4.004, 7.879, 4.746, 8.121], "texture": "#5"},
+				"west": {"uv": [7.629, 5.504, 8.621, 5.746], "texture": "#5"},
+				"up": {"uv": [5.121, 7.621, 4.379, 6.629], "texture": "#5"},
+				"down": {"uv": [5.871, 6.629, 5.129, 7.621], "texture": "#5"}
+			}
+		},
+		{
+			"from": [2, 0, 3],
+			"to": [6, 1, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 0, 3]},
+			"faces": {
+				"north": {"uv": [7.879, 7.754, 8.371, 7.871], "texture": "#5"},
+				"east": {"uv": [0.504, 8.004, 0.996, 8.121], "texture": "#5"},
+				"south": {"uv": [8.004, 0.504, 8.496, 0.621], "texture": "#5"},
+				"west": {"uv": [1.004, 8.004, 1.496, 8.121], "texture": "#5"},
+				"up": {"uv": [5.496, 8.121, 5.004, 7.629], "texture": "#5"},
+				"down": {"uv": [8.121, 5.754, 7.629, 6.246], "texture": "#5"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [2, 0, 3],
+			"color": 0,
+			"boneType": "",
+			"children": [0, 1]
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"parent": "walmart:entity/battle_bot/base",
+	"display": {
+		"head": {
+			"translation": [0, -3.4432, 0],
+			"scale": [0.983, 0.924, 0.983],
+			"rotation": [0, 0, 0]
+		}
+	}
+}

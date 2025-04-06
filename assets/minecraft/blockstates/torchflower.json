@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": [
+	{"model": "minecraft:block/torchflower", "weight": 6 },
+	{"model": "minecraft:block/torchflower2", "weight": 2 }
+	]
+    }
+  }

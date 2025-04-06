@@ -1,0 +1,59 @@
+{
+	"credit": "Made by Ziqqy using Blockbench",
+	"parent": "walmart:display_parents/furniture",
+	"ambientocclusion": false,
+	"texture_size": [64, 64],
+	"textures": {
+		"1": "walmart:furniture/electricity_cable",
+		"particle": "walmart:furniture/electricity_cable"
+	},
+	"elements": [
+		{
+			"from": [-16, 0, 8],
+			"to": [-4, 4, 8],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 12, 4], "texture": "#1"},
+				"south": {"uv": [12, 0, 0, 4], "texture": "#1"}
+			}
+		},
+		{
+			"from": [-4, 0, 8],
+			"to": [8, 4, 8],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2, 8]},
+			"faces": {
+				"north": {"uv": [0, 4, 12, 8], "texture": "#1"},
+				"south": {"uv": [12, 4, 0, 8], "texture": "#1"}
+			}
+		},
+		{
+			"from": [20, 0, 8],
+			"to": [32, 4, 8],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2, 8]},
+			"faces": {
+				"north": {"uv": [0, 12, 12, 16], "texture": "#1"},
+				"south": {"uv": [12, 12, 0, 16], "texture": "#1"}
+			}
+		},
+		{
+			"from": [8, 0, 8],
+			"to": [20, 4, 8],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2, 8]},
+			"faces": {
+				"north": {"uv": [0, 8, 12, 12], "texture": "#1"},
+				"south": {"uv": [12, 8, 0, 12], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, 0.75, 0],
+			"scale": [0.4, 0.4, 0.4]
+		}
+	}
+}

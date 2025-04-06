@@ -1,0 +1,1 @@
+{"textures":{"0":"walmart:entity/chameleon/chameleon"},"elements":[{"faces":{"east":{"uv":[12.5,0,9,3],"texture":"#0","tintindex":0},"west":{"uv":[9,0,12.5,3],"texture":"#0","tintindex":0}},"to":[8,7.2,10.8],"from":[8,4.8,8],"rotation":{"angle":0,"axis":"y","origin":[8,6,9.4]}}],"display":{"head":{"translation":[0,5.6,0],"scale":[4,4,4],"rotation":[0,0,0]}}}

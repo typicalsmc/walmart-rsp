@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "walmart:items/earth_object_crystal_item",
+    "layer1": "walmart:items/earth_object_crystal_item"
+  }
+}

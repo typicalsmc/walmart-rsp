@@ -1,0 +1,54 @@
+{
+	"credit": "Made by Ziqqy using Blockbench",
+	"parent": "walmart:display_parents/furniture",
+	"textures": {
+		"0": "walmart:furniture/bowl",
+		"particle": "walmart:furniture/bowl"
+	},
+	"elements": [
+		{
+			"from": [7.25, 0, 7.25],
+			"to": [8.75, 0.25, 8.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.75, 0, 7.75]},
+			"faces": {
+				"north": {"uv": [9.032, 8.032, 14.968, 8.968], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [9.032, 6.032, 14.968, 6.968], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [9.032, 9.032, 14.968, 9.968], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [9.032, 7.032, 14.968, 7.968], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [14.968, 0.032, 9.032, 5.968], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [6.875, 0.25, 6.875],
+			"to": [9.125, 1.25, 9.125],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.75, 0.25, 7.75]},
+			"faces": {
+				"north": {"uv": [0.032, 9.032, 8.968, 12.968], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [0.032, 9.032, 8.968, 12.968], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [0.032, 9.032, 8.968, 12.968], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [0.032, 9.032, 8.968, 12.968], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [8.968, 0.032, 0.032, 8.968], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"name": "cube inverted",
+			"from": [9.125, 1.25, 9.125],
+			"to": [6.875, 0.25, 6.875],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.75, 0.25, 7.75]},
+			"faces": {
+				"north": {"uv": [0.032, 12.968, 8.968, 9.032], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [0.032, 12.968, 8.968, 9.032], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [0.032, 12.968, 8.968, 9.032], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [0.032, 12.968, 8.968, 9.032], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [0.032, 0.032, 8.968, 8.968], "texture": "#0", "tintindex": 0}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, 25.25, 0],
+			"scale": [4, 4, 4]
+		}
+	}
+}

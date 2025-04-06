@@ -1,0 +1,10 @@
+{
+	"parent": "walmart:entity/magnetic_golem/bone3",
+	"display": {
+		"head": {
+			"translation": [0, -2.9984, 0],
+			"scale": [1.063, 1.063, 1.063],
+			"rotation": [0, 0, 0]
+		}
+	}
+}

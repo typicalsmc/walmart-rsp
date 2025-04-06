@@ -1,0 +1,10 @@
+{
+	"parent": "walmart:entity/battle_bot/left_antenna",
+	"display": {
+		"head": {
+			"translation": [0, -2.896, 0],
+			"scale": [1, 1.095, 1.008],
+			"rotation": [0, 0, 0]
+		}
+	}
+}

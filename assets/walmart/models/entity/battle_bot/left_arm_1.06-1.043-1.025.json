@@ -1,0 +1,10 @@
+{
+	"parent": "walmart:entity/battle_bot/left_arm",
+	"display": {
+		"head": {
+			"translation": [0, -3.0624, 0],
+			"scale": [1.06, 1.043, 1.025],
+			"rotation": [0, 0, 0]
+		}
+	}
+}

@@ -1,0 +1,1 @@
+{"textures":{"0":"walmart:entity/space_bug/space_bug_texture"},"elements":[{"faces":{"up":{"uv":[11.5,10.5,9,7.5],"texture":"#0","tintindex":0},"down":{"uv":[11.5,7.5,9,10.5],"texture":"#0","tintindex":0}},"to":[9.6,5,8],"from":[1.6,5,-1.6],"rotation":{"angle":0,"axis":"y","origin":[5.6,5,3.2]}}],"display":{"head":{"translation":[0,-3.2,0],"scale":[1,1,1],"rotation":[0,0,0]}}}

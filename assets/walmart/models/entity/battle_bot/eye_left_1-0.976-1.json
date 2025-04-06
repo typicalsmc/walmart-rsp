@@ -1,0 +1,10 @@
+{
+	"parent": "walmart:entity/battle_bot/eye_left",
+	"display": {
+		"head": {
+			"translation": [0, -3.2768, 0],
+			"scale": [1, 0.976, 1],
+			"rotation": [0, 0, 0]
+		}
+	}
+}

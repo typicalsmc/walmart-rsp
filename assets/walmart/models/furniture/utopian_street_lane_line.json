@@ -1,0 +1,26 @@
+{
+	"credit": "Made by Ziqqy using Blockbench",
+	"parent": "walmart:display_parents/furniture",
+	"textures": {
+		"6": "walmart:furniture/utopian_street_lane_line",
+		"particle": "walmart:furniture/utopian_street_lane_line"
+	},
+	"elements": [
+		{
+			"from": [4, 0.125, 7.5],
+			"to": [12, 0.125, 8.5],
+			"light_emission": 10,
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 0.125, 6]},
+			"faces": {
+				"up": {"uv": [16, 2, 0, 0], "texture": "#6", "tintindex": 0}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, 2.75, 0],
+			"scale": [0.71, 0.71, 0.71]
+		}
+	}
+}

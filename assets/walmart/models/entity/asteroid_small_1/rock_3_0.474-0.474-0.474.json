@@ -1,0 +1,10 @@
+{
+	"parent": "walmart:entity/asteroid_small_1/rock_3",
+	"display": {
+		"head": {
+			"translation": [0, -4.8832, 0],
+			"scale": [0.474, 0.474, 0.474],
+			"rotation": [0, 0, 0]
+		}
+	}
+}

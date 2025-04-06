@@ -1,0 +1,37 @@
+{
+  "variants": {
+    "": [
+      { "model": "walmart:furniture/books_2_large" },
+      { "model": "walmart:furniture/books_3_large" },
+      { "model": "walmart:furniture/books_4_large" },
+      { "model": "walmart:furniture/books_5_large" },
+      { "model": "walmart:furniture/books_6_large" },
+      { "model": "walmart:furniture/books_7_large" },
+      { "model": "walmart:furniture/books_pile_large" },
+
+      { "model": "walmart:furniture/books_2_large", "y": 90 },
+      { "model": "walmart:furniture/books_3_large", "y": 90 },
+      { "model": "walmart:furniture/books_4_large", "y": 90 },
+      { "model": "walmart:furniture/books_5_large", "y": 90 },
+      { "model": "walmart:furniture/books_6_large", "y": 90 },
+      { "model": "walmart:furniture/books_7_large", "y": 90 },
+      { "model": "walmart:furniture/books_pile_large", "y": 90 },
+
+      { "model": "walmart:furniture/books_2_large", "y": 180 },
+      { "model": "walmart:furniture/books_3_large", "y": 180 },
+      { "model": "walmart:furniture/books_4_large", "y": 180 },
+      { "model": "walmart:furniture/books_5_large", "y": 180 },
+      { "model": "walmart:furniture/books_6_large", "y": 180 },
+      { "model": "walmart:furniture/books_7_large", "y": 180 },
+      { "model": "walmart:furniture/books_pile_large", "y": 180 },
+
+      { "model": "walmart:furniture/books_2_large", "y": 270 },
+      { "model": "walmart:furniture/books_3_large", "y": 270 },
+      { "model": "walmart:furniture/books_4_large", "y": 270 },
+      { "model": "walmart:furniture/books_5_large", "y": 270 },
+      { "model": "walmart:furniture/books_6_large", "y": 270 },
+      { "model": "walmart:furniture/books_7_large", "y": 270 },
+      { "model": "walmart:furniture/books_pile_large", "y": 270 }
+    ]
+  }
+}

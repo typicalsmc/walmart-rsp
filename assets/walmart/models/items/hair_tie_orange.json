@@ -1,0 +1,65 @@
+{
+	"credit": "Made with Blockbench, by EnderIzzy124",
+	"parent": "walmart:display_parents/furniture",
+	"textures": {
+		"0": "walmart:items/hairtie_orange",
+		"particle": "walmart:items/hairtie_orange"
+	},
+	"elements": [
+		{
+			"name": "hairtie",
+			"from": [6.5, 0, 6.5],
+			"to": [9.5, 2, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1, 8]},
+			"faces": {
+				"north": {"uv": [4, 0, 7, 2], "texture": "#0"},
+				"east": {"uv": [7, 0, 4, 2], "texture": "#0"},
+				"south": {"uv": [4, 0, 7, 2], "texture": "#0"},
+				"west": {"uv": [7, 0, 4, 2], "texture": "#0"},
+				"up": {"uv": [3, 3, 0, 0], "texture": "#0"},
+				"down": {"uv": [3, 4, 0, 7], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [79.59, -63.79, 16.21],
+			"translation": [-2, 2.5, 6]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [79.59, -63.79, 16.21],
+			"translation": [-2, 2.5, 6]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -69, 0],
+			"translation": [1.5, 9.5, 0],
+			"scale": [1.14, 1.14, 1.14]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -69, 0],
+			"translation": [1.5, 9.5, 0],
+			"scale": [1.14, 1.14, 1.14]
+		},
+		"ground": {
+			"translation": [0, 6, 0]
+		},
+		"gui": {
+			"rotation": [30, -45, 0],
+			"translation": [0, 4.75, 0]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 1, -15.75],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "hairtie",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"boneType": "",
+			"children": [0]
+		}
+	]
+}

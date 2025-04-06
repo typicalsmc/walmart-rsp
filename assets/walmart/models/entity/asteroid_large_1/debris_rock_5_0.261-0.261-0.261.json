@@ -1,0 +1,10 @@
+{
+	"parent": "walmart:entity/asteroid_large_1/debris_rock_5",
+	"display": {
+		"head": {
+			"translation": [0, 9.7384, 0],
+			"scale": [1.044, 1.044, 1.044],
+			"rotation": [0, 0, 0]
+		}
+	}
+}

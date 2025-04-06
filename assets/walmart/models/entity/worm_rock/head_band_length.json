@@ -1,0 +1,1 @@
+{"textures":{"0":"walmart:entity/worm_rock/worm_rock"},"elements":[{"faces":{"north":{"uv":[0.25,11,2,12.75],"texture":"#0","tintindex":0},"south":{"uv":[0.25,11,2,12.75],"texture":"#0","tintindex":0}},"to":[13.6,5.8,8],"from":[2.4,-5.4,8],"rotation":{"angle":0,"axis":"y","origin":[8,0.2,8]}}],"display":{"head":{"translation":[0,-3.2,0],"scale":[1,1,1],"rotation":[0,0,0]}}}

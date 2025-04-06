@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "walmart:items/starlog_nav",
+		"particle": "walmart:items/starlog_nav"
+	},
+	"elements": [
+		{
+			"from": [-1, -1, 0],
+			"to": [17, 17, 0],
+			"faces": {
+				"north": {"uv": [4.5, 13.5, 6.75, 15.75], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"rotation": [0, 180, 0]
+		}
+	}
+}

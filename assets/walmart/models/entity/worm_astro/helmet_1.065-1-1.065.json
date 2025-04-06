@@ -1,0 +1,10 @@
+{
+	"parent": "walmart:entity/worm_astro/helmet",
+	"display": {
+		"head": {
+			"translation": [0, -3.2, 0],
+			"scale": [1.065, 1, 1.065],
+			"rotation": [0, 0, 0]
+		}
+	}
+}

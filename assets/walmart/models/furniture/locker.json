@@ -1,0 +1,77 @@
+{
+	"credit": "Made by Ziqqy using Blockbench",
+	"parent": "walmart:display_parents/furniture",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "walmart:furniture/locker",
+		"particle": "walmart:furniture/locker"
+	},
+	"elements": [
+		{
+			"name": "exterior",
+			"from": [6, 0.5, 6.25],
+			"to": [10, 9.25, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 1.25, 6]},
+			"faces": {
+				"north": {"uv": [0.004, 0.004, 1.996, 4.371], "texture": "#0"},
+				"east": {"uv": [9.621, 4.504, 7.754, 8.871], "texture": "#0"},
+				"south": {"uv": [3.879, 0.004, 5.871, 4.371], "texture": "#0"},
+				"west": {"uv": [2.004, 0.004, 3.871, 4.371], "texture": "#0"},
+				"up": {"uv": [1.996, 6.246, 0.004, 4.379], "texture": "#0"},
+				"down": {"uv": [3.996, 4.379, 2.004, 6.246], "texture": "#0"}
+			}
+		},
+		{
+			"name": "bottom",
+			"from": [6.25, 0, 6.5],
+			"to": [9.75, 0.5, 9.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0.75, 6]},
+			"faces": {
+				"north": {"uv": [6.379, 1.629, 8.121, 1.871], "texture": "#0"},
+				"east": {"uv": [6.379, 1.879, 7.996, 2.121], "texture": "#0"},
+				"south": {"uv": [6.379, 2.129, 8.121, 2.371], "texture": "#0"},
+				"west": {"uv": [6.379, 2.379, 7.996, 2.621], "texture": "#0"},
+				"down": {"uv": [8.121, 0.004, 6.379, 1.621], "texture": "#0"}
+			}
+		},
+		{
+			"name": "handle",
+			"from": [8.75, 3.75, 5.75],
+			"to": [9.25, 5.5, 6.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.25, 4.875, 6.25]},
+			"faces": {
+				"north": {"uv": [5.879, 0.004, 6.121, 0.871], "texture": "#0"},
+				"east": {"uv": [5.879, 0.879, 6.121, 1.746], "texture": "#0"},
+				"west": {"uv": [5.879, 1.754, 6.121, 2.621], "texture": "#0"},
+				"up": {"uv": [6.371, 0.246, 6.129, 0.004], "texture": "#0"},
+				"down": {"uv": [6.371, 0.254, 6.129, 0.496], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, 4.25, 0],
+			"scale": [1.43, 1.43, 1.43]
+		}
+	},
+	"groups": [
+		{
+			"name": "full",
+			"origin": [14, -1, 0],
+			"color": 0,
+			"boneType": "",
+			"children": [
+				0,
+				1,
+				{
+					"name": "door",
+					"origin": [14, -1, 0],
+					"color": 0,
+					"boneType": "",
+					"children": [2]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"credit": "Made by DisneyArchitect",
+	"parent": "walmart:display_parents/furniture",
+	"textures": {
+		"0": "walmart:furniture/steam_windows",
+		"particle": "walmart:furniture/steam_windows"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 7.5],
+			"to": [10, 8, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [13.25, 0, 8]},
+			"faces": {
+				"north": {"uv": [9, 0, 10, 2], "texture": "#0"},
+				"east": {"uv": [9.875, 0, 10, 2], "texture": "#0"},
+				"south": {"uv": [9, 0, 10, 2], "texture": "#0"},
+				"west": {"uv": [9.875, 0, 10, 2], "texture": "#0"},
+				"up": {"uv": [9, 0, 10, 0.0625], "texture": "#0"},
+				"down": {"uv": [9, 1.9375, 10, 2], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.25, 3.5],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.25, 3.5],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 105, 0],
+			"translation": [2.5, 6.5, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 105, 0],
+			"translation": [2.5, 6.5, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"ground": {
+			"translation": [0, 2, 0]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, 5.5, 0],
+			"scale": [1.59, 1.59, 1.59]
+		}
+	}
+}

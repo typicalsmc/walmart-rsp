@@ -1,0 +1,65 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "walmart:furniture/navigation_map",
+		"particle": "walmart:furniture/navigation_map"
+	},
+	"elements": [
+		{
+			"from": [2.125, -5.375, 8],
+			"to": [14.125, 18.625, 8],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 6.625, 8.125]},
+			"faces": {
+				"north": {"uv": [0, 13, 6, 16], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [0, 13, 6, 16], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [1.375, -5.375, 8.25],
+			"to": [14.375, 18.625, 8.25],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 6.625, 8.125]},
+			"faces": {
+				"north": {"uv": [0, 7, 3.25, 13], "texture": "#0"},
+				"south": {"uv": [0, 7, 3.25, 13], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 15, 0],
+			"translation": [1.5, 0, 0],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, 0.5, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"head": {
+			"translation": [0, 16, 0],
+			"scale": [4, 4, 4]
+		}
+	},
+	"groups": [
+		{
+			"name": "core",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

@@ -1,0 +1,82 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "walmart:display_parents/furniture",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "walmart:furniture/banner2",
+		"particle": "walmart:furniture/banner2"
+	},
+	"elements": [
+		{
+			"from": [5.25, 0.09375, 8],
+			"to": [10.75, 6.0875, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 6.09375, 8.25]},
+			"faces": {
+				"north": {"uv": [0, 6.00313, 2.75, 9], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [0, 6.00313, 2.75, 9], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [5.125, 6.0875, 8],
+			"to": [10.875, 18.09375, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.125, 6.09375, 8.25]},
+			"faces": {
+				"north": {"uv": [0, 0, 2.875, 6.00313], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [0, 0, 2.875, 6.00313], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [5.125, 6.0875, 8],
+			"to": [10.875, 18.09375, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.125, 6.09375, 8.25]},
+			"faces": {
+				"north": {"uv": [3, 0, 5.875, 6.00313], "texture": "#0"},
+				"south": {"uv": [3, 0, 5.875, 6.00313], "texture": "#0"}
+			}
+		},
+		{
+			"from": [3.625, 17.59375, 8],
+			"to": [12.375, 18.59375, 8],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 18.09375, 8]},
+			"faces": {
+				"north": {"uv": [8, 6, 12.375, 6.5], "texture": "#0"},
+				"south": {"uv": [8, 6, 12.375, 6.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5.125, 15.78125, 8],
+			"to": [10.875, 21.53125, 8],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 18.65625, 8]},
+			"faces": {
+				"north": {"uv": [6, 0, 8.875, 2.875], "texture": "#0"},
+				"south": {"uv": [6, 0, 8.875, 2.875], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [3.875, 6.09375, 8],
+			"to": [4.875, 18.09375, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.875, 6.09375, 8.25]},
+			"faces": {
+				"north": {"uv": [6, 6, 6.5, 12], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [6, 6, 6.5, 12], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [11.125, 6.09375, 8],
+			"to": [12.125, 18.09375, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16.125, 6.09375, 8.25]},
+			"faces": {
+				"north": {"uv": [7, 6, 7.5, 12], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [7, 6, 7.5, 12], "texture": "#0", "tintindex": 0}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "bone2",
+			"origin": [16.125, 0.34375, 8.25],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6]
+		}
+	]
+}

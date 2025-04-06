@@ -1,0 +1,470 @@
+{
+    "generic.button_error": {
+        "sounds": [ "walmart:generic.button_error" ]
+    },
+    "generic.challenge_completed": {
+        "sounds": [ "walmart:generic.challenge_completed" ]
+    },
+    "generic.countdown_1": {
+        "sounds": [ "walmart:generic.countdown_1" ]
+    },
+    "generic.countdown_2": {
+        "sounds": [ "walmart:generic.countdown_2" ]
+    },
+    "generic.countdown_3": {
+        "sounds": [ "walmart:generic.countdown_3" ]
+    },
+    "generic.itemplace_click_1": {
+        "sounds": [ "walmart:generic.itemplace_click_1" ]
+    },
+    "generic.itemplace_snap_1": {
+        "sounds": [ "walmart:generic.itemplace_snap_1" ]
+    },
+    "generic.itempickup": {
+        "sounds": [ "walmart:generic.itempickup" ]
+    },
+    "generic.ding": {
+        "sounds": [ "walmart:generic.ding" ]
+    },
+    "generic.objective_complete": {
+        "sounds": [ "walmart:generic.objective_complete" ]
+    },
+    "generic.secret_found": {
+        "sounds": [ "walmart:generic.secret_found" ]
+    },
+    "generic.walkie_talkie_static": {
+        "sounds": [ "walmart:generic.walkie_talkie_static" ]
+    },
+    "generic.objective_defeat": {
+        "sounds": [ "walmart:generic.objective_defeat" ]
+    },
+    "generic.waypoint_reach": {
+        "sounds": [ "walmart:generic.waypoint_reach" ]
+    },
+    "generic.menu_click": {
+        "sounds": [ "walmart:generic.menu_click" ]
+    },
+    "generic.menu_close": {
+        "sounds": [ "walmart:generic.menu_close" ]
+    },
+    "generic.menu_open": {
+        "sounds": [ "walmart:generic.menu_open" ]
+    },
+    "item.book.page_turn": {
+        "sounds": [ "walmart:item.book.page_turn" ]
+    },
+    "anim.post_week_1": {
+        "sounds": [ "walmart:anim.post_week_1" ]
+    },
+    "anim.pre_week_1": {
+        "sounds": [ "walmart:anim.pre_week_1" ]
+    },
+    "anim.emporiom_end": {
+        "sounds": [ "walmart:anim.emporiom_end" ]
+    },
+    "anim.emporiom_start": {
+        "sounds": [ "walmart:anim.emporiom_start" ]
+    },
+    "anim.frankie_lib_s2": {
+        "sounds": [ "walmart:anim.frankie_lib_s2" ]
+    },
+    "anim.frankie_lib_s3": {
+        "sounds": [ "walmart:anim.frankie_lib_s3" ]
+    },
+    "anim.frankie_suit_up": {
+        "sounds": [ "walmart:anim.frankie_suit_up" ]
+    },
+    "anim.hawke_farm_minigame_s2": {
+        "sounds": [ "walmart:anim.hawke_farm_minigame_s2" ]
+    },
+    "anim.hawke_farm_telescope": {
+        "sounds": [ "walmart:anim.hawke_farm_telescope" ]
+    },
+    "anim.hawke_suit_up": {
+        "sounds": [ "walmart:anim.hawke_suit_up" ]
+    },
+    "anim.rex_gym_end": {
+        "sounds": [ "walmart:anim.rex_gym_end" ]
+    },
+    "anim.rex_suit_up": {
+        "sounds": [ "walmart:anim.rex_suit_up" ]
+    },
+    "anim.ship_arrival_s1": {
+        "sounds": [ "walmart:anim.ship_arrival_s1" ]
+    },
+    "anim.ship_arrival_s2": {
+        "sounds": [ "walmart:anim.ship_arrival_s2" ]
+    },
+    "anim.zoe_home_s3": {
+        "sounds": [ "walmart:anim.zoe_home_s3" ]
+    },
+    "anim.zoe_suit_up": {
+        "sounds": [ "walmart:anim.zoe_suit_up" ]
+    },
+    "anim.asteroid_room_new": {
+        "sounds": [ "walmart:anim.asteroid_room_new" ]
+    },
+    "anim.bird_screeching": {
+        "sounds": [ "walmart:anim.bird_screeching" ]
+    },
+    "anim.enigma9_wake_up": {
+        "sounds": [ "walmart:anim.enigma9_wake_up" ]
+    },
+    "anim.post_week_2": {
+        "sounds": [ "walmart:anim.post_week_2" ]
+    },
+    "anim.worm_cutscene": {
+        "sounds": [ "walmart:anim.worm_cutscene" ]
+    },
+    "anim.hawke_farm_minigame_s1": {
+        "sounds": [ "walmart:anim.hawke_farm_minigame_s1" ]
+    },
+    "anim.hawke_space_vr_s1": {
+        "sounds": [ "walmart:anim.hawke_space_vr_s1" ]
+    },
+    "anim.hawke_tractor_s1": {
+        "sounds": [ "walmart:anim.hawke_tractor_s1" ]
+    },
+    "anim.hawke_tractor_s2": {
+        "sounds": [ "walmart:anim.hawke_tractor_s2" ]
+    },
+    "anim.hawke_tractor_s3": {
+        "sounds": [ "walmart:anim.hawke_tractor_s3" ]
+    },
+    "anim.parktransition": {
+        "sounds": [ "walmart:anim.parktransition" ]
+    },
+    "anim.rex_gym_boxing_s1": {
+        "sounds": [ "walmart:anim.rex_gym_boxing_s1" ]
+    },
+    "anim.rex_gym_search_s1": {
+        "sounds": [ "walmart:anim.rex_gym_search_s1" ]
+    },
+    "anim.rex_gym_start_s1": {
+        "sounds": [ "walmart:anim.rex_gym_start_s1" ]
+    },
+    "anim.zoe_benji_s1": {
+        "sounds": [ "walmart:anim.zoe_benji_s1" ]
+    },
+    "anim.zoe_benji_s3": {
+        "sounds": [ "walmart:anim.zoe_benji_s3" ]
+    },
+    "ambient.earth_1": {
+        "sounds": [ "walmart:ambient.earth_1" ]
+    },
+    "ambient.spaceship": {
+        "sounds": [ "walmart:ambient.spaceship" ]
+    },
+    "ambient.spaceship_exterior": {
+        "sounds": [ "walmart:ambient.spaceship_exterior" ]
+    },
+    "ambient.vibra_nebula_1": {
+        "sounds": [ "walmart:ambient.vibra_nebula_1" ]
+    },
+    "ambient.cave_ambient": {
+        "sounds": [ "walmart:ambient.cave_ambient" ]
+    },
+    "ambient.earth_interior_ambient": {
+        "sounds": [ "walmart:ambient.earth_interior_ambient" ]
+    },
+    "w1.booksounds_ambientflyingsound": {
+        "sounds": [ "walmart:w1.booksounds_ambientflyingsound" ]
+    },
+    "w1.booksounds_bookfall": {
+        "sounds": [ "walmart:w1.booksounds_bookfall" ]
+    },
+    "w1.bugnetswipe": {
+        "sounds": [ "walmart:w1.bugnetswipe" ]
+    },
+    "w1.bugspraycan": {
+        "sounds": [ "walmart:w1.bugspraycan" ]
+    },
+    "w1.humandialogue": {
+        "sounds": [ "walmart:w1.humandialogue" ]
+    },
+    "w1.tractor_bigcrash": {
+        "sounds": [ "walmart:w1.tractor_bigcrash" ]
+    },
+    "w1.tractor_crash": {
+        "sounds": [ "walmart:w1.tractor_crash" ]
+    },
+    "w1.tractor_driving": {
+        "sounds": [ "walmart:w1.tractor_driving" ]
+    },
+    "w1.tractor_idle": {
+        "sounds": [ "walmart:w1.tractor_idle" ]
+    },
+    "w1.trampolinejump": {
+        "sounds": [ "walmart:w1.trampolinejump" ]
+    },
+    "w1.battlebot_attack": {
+        "sounds": [ "walmart:w1.battlebot_attack" ]
+    },
+    "w1.battlebot_death": {
+        "sounds": [ "walmart:w1.battlebot_death" ]
+    },
+    "w1.battlebot_idle": {
+        "sounds": [ "walmart:w1.battlebot_idle" ]
+    },
+    "w1.magnetic_golem_attack": {
+        "sounds": [ "walmart:w1.magnetic_golem_attack" ]
+    },
+    "w1.magnetic_golem_attract": {
+        "sounds": [ "walmart:w1.magnetic_golem_attract" ]
+    },
+    "w1.magnetic_golem_death": {
+        "sounds": [ "walmart:w1.magnetic_golem_death" ]
+    },
+    "w1.magnetic_golem_idle": {
+        "sounds": [ "walmart:w1.magnetic_golem_idle" ]
+    },
+    "w1.magnetic_golem_repel": {
+        "sounds": [ "walmart:w1.magnetic_golem_repel" ]
+    },
+    "w1.ninja_ghost_attack": {
+        "sounds": [ "walmart:w1.ninja_ghost_attack" ]
+    },
+    "w1.ninja_ghost_death": {
+        "sounds": [ "walmart:w1.ninja_ghost_death" ]
+    },
+    "w1.ninja_ghost_idle": {
+        "sounds": [ "walmart:w1.ninja_ghost_idle" ]
+    },
+    "w1.30s_countdown": {
+        "sounds": [ "walmart:w1.30s_countdown" ]
+    },
+    "w1.blueprint_item_drag": {
+        "sounds": [ "walmart:w1.blueprint_item_drag" ]
+    },
+    "w1.blueprint_item_lock_in": {
+        "sounds": [ "walmart:w1.blueprint_item_lock_in" ]
+    },
+    "w1.bug_swarm": {
+        "sounds": [ "walmart:w1.bug_swarm" ]
+    },
+    "w1.crow": {
+        "sounds": [ "walmart:w1.crow" ]
+    },
+    "w1.dinosaur_footsteps": {
+        "sounds": [ "walmart:w1.dinosaur_footsteps" ]
+    },
+    "w1.jetpack_flight": {
+        "sounds": [ "walmart:w1.jetpack_flight" ]
+    },
+    "w1.large_dinosaur_roar": {
+        "sounds": [ "walmart:w1.large_dinosaur_roar" ]
+    },
+    "w1.position_lock_in": {
+        "sounds": [ "walmart:w1.position_lock_in" ]
+    },
+    "w1.small_dinosaur_roar": {
+        "sounds": [ "walmart:w1.small_dinosaur_roar" ]
+    },
+    "w1.tractor_engine_start": {
+        "sounds": [ "walmart:w1.tractor_engine_start" ]
+    },
+    "w1.pan_clang": {
+        "sounds": [ "walmart:w1.pan_clang" ]
+    },
+    "w1.powercell_charge": {
+        "sounds": [ "walmart:w1.powercell_charge" ]
+    },
+    "w1.powercell_charge_complete": {
+        "sounds": [ "walmart:w1.powercell_charge_complete" ]
+    },
+    "w1.powercell_plug_in": {
+        "sounds": [ "walmart:w1.powercell_plug_in" ]
+    },
+    "w1.sample_collection_complete": {
+        "sounds": [ "walmart:w1.sample_collection_complete" ]
+    },
+    "w1.sample_collection_wheel": {
+        "sounds": [ "walmart:w1.sample_collection_wheel" ]
+    },
+    "w1.spaceship_elevator": {
+        "sounds": [ "walmart:w1.spaceship_elevator" ]
+    },
+    "w1.sample_collection_fail": {
+        "sounds": [ "walmart:w1.sample_collection_fail" ]
+    },
+    "w1.reactor_restart_5s_riser": {
+        "sounds": [ "walmart:w1.reactor_restart_5s_riser" ]
+    },
+    "w1.reactor_restart_click": {
+        "sounds": [ "walmart:w1.reactor_restart_click" ]
+    },
+    "w1.proximity_indicator_further": {
+        "sounds": [ "walmart:w1.proximity_indicator_further" ]
+    },
+    "w1.proximity_indicator_closer": {
+        "sounds": [ "walmart:w1.proximity_indicator_closer" ]
+    },
+    "w1.color_parkour_switch": {
+        "sounds": [ "walmart:w1.color_parkour_switch" ]
+    },
+    "w1.analysis_point_collection": {
+        "sounds": [ "walmart:w1.analysis_point_collection" ]
+    },
+    "w1.answer_cycling": {
+        "sounds": [ "walmart:w1.answer_cycling" ]
+    },
+    "w1.feedback_close": {
+        "sounds": [ "walmart:w1.feedback_close" ]
+    },
+    "w1.feedback_far_off": {
+        "sounds": [ "walmart:w1.feedback_far_off" ]
+    },
+    "w1.feedback_perfect_score": {
+        "sounds": [ "walmart:w1.feedback_perfect_score" ]
+    },
+    "w1.feedback_very_close": {
+        "sounds": [ "walmart:w1.feedback_very_close" ]
+    },
+    "w1.forced_exit": {
+        "sounds": [ "walmart:w1.forced_exit" ]
+    },
+    "w1.jetpack_out_of_fuel": {
+        "sounds": [ "walmart:w1.jetpack_out_of_fuel" ]
+    },
+    "w1.rope_pull": {
+        "sounds": [ "walmart:w1.rope_pull" ]
+    },
+    "w1.submit_button_cooldown": {
+        "sounds": [ "walmart:w1.submit_button_cooldown" ]
+    },
+    "w2.activate_grow_pad": {
+        "sounds": [ "walmart:w2.activate_grow_pad" ]
+    },
+    "w2.activate_shrink_pad": {
+        "sounds": [ "walmart:w2.activate_shrink_pad" ]
+    },
+    "w2.anti_grav_panel_hum": {
+        "sounds": [ "walmart:w2.anti_grav_panel_hum" ]
+    },
+    "w2.bird_cry": {
+        "sounds": [ "walmart:w2.bird_cry" ]
+    },
+    "w2.bird_dialogue": {
+        "sounds": [ "walmart:w2.bird_dialogue" ]
+    },
+    "w2.worm_dialogue": {
+        "sounds": [ "walmart:w2.worm_dialogue" ]
+    },
+    "w2.mushroom_button_activated": {
+        "sounds": [ "walmart:w2.mushroom_button_activated" ]
+    },
+    "w2.enigma9_dialogue": {
+        "sounds": [ "walmart:w2.enigma9_dialogue" ]
+    },
+    "w2.haunt": {
+        "sounds": [ "walmart:w2.haunt" ]
+    },
+    "w2.enigma9_startup": {
+        "sounds": [ "walmart:w2.enigma9_startup" ]
+    },
+    "w2.enigma9_movement2": {
+        "sounds": [ "walmart:w2.enigma9_movement2" ]
+    },
+    "w2.enigma9_movement1": {
+        "sounds": [ "walmart:w2.enigma9_movement1" ]
+    },
+    "w2.enigma9_slowdown": {
+        "sounds": [ "walmart:w2.enigma9_slowdown" ]
+    },
+    "w2.enigma9_speedup": {
+        "sounds": [ "walmart:w2.enigma9_speedup" ]
+    },
+    "w2.enigma9_powerdown": {
+        "sounds": [ "walmart:w2.enigma9_powerdown" ]
+    },
+    "w2.beam_impact": {
+        "sounds": [ "walmart:w2.beam_impact" ]
+    },
+    "w2.capacitor_recharging": {
+        "sounds": [ "walmart:w2.capacitor_recharging" ]
+    },
+    "w2.magnetic_flux_beam_activation": {
+        "sounds": [ "walmart:w2.magnetic_flux_beam_activation" ]
+    },
+    "w2.pet_adoption": {
+        "sounds": [ "walmart:w2.pet_adoption" ]
+    },
+    "w2.pet_beetle_ambient": {
+        "sounds": [ "walmart:w2.pet_beetle_ambient" ]
+    },
+    "w2.pet_beetle_interact": {
+        "sounds": [ "walmart:w2.pet_beetle_interact" ]
+    },
+    "w2.pet_hippo_ambient": {
+        "sounds": [ "walmart:w2.pet_hippo_ambient" ]
+    },
+    "w2.pet_hippo_interact": {
+        "sounds": [ "walmart:w2.pet_hippo_interact" ]
+    },
+    "w2.pet_jellyfish_ambient": {
+        "sounds": [ "walmart:w2.pet_jellyfish_ambient" ]
+    },
+    "w2.pet_jellyfish_interact": {
+        "sounds": [ "walmart:w2.pet_jellyfish_interact" ]
+    },
+    "w2.pet_lizard_ambient": {
+        "sounds": [ "walmart:w2.pet_lizard_ambient" ]
+    },
+    "w2.pet_lizard_interact": {
+        "sounds": [ "walmart:w2.pet_lizard_interact" ]
+    },
+    "w2.pet_robot_ambient": {
+        "sounds": [ "walmart:w2.pet_robot_ambient" ]
+    },
+    "w2.pet_robot_interact": {
+        "sounds": [ "walmart:w2.pet_robot_interact" ]
+    },
+    "w2.pet_stingray_ambient": {
+        "sounds": [ "walmart:w2.pet_stingray_ambient" ]
+    },
+    "w2.pet_stingray_interact": {
+        "sounds": [ "walmart:w2.pet_stingray_interact" ]
+    },
+    "w3.mining_dirt_reached": {
+        "sounds": [ "walmart:w3.mining_dirt_reached" ]
+    },
+    "w3.mining_sound": {
+        "sounds": [ "walmart:w3.mining_sound" ]
+    },
+    "w3.pickaxe_break": {
+        "sounds": [ "walmart:w3.pickaxe_break" ]
+    },
+    "w3.trading_completion": {
+        "sounds": [ "walmart:w3.trading_completion" ]
+    },
+    "w3.wall_crumbled": {
+        "sounds": [ "walmart:w3.wall_crumbled" ]
+    },
+    "w3.incorrect_noise": {
+        "sounds": [ "walmart:w3.incorrect_noise" ]
+    },
+    "w4.saloon_piano": {
+        "sounds": [ "walmart:w4.saloon_piano" ]
+    },
+    "w4.camera_snap": {
+        "sounds": [ "walmart:w4.camera_snap" ]
+    },
+    "w4.collision": {
+        "sounds": [ "walmart:w4.collision" ]
+    },
+    "w4.dart_hit_board": {
+        "sounds": [ "walmart:w4.dart_hit_board" ]
+    },
+    "w4.dart_throw": {
+        "sounds": [ "walmart:w4.dart_throw" ]
+    },
+    "w4.plane_ding": {
+        "sounds": [ "walmart:w4.plane_ding" ]
+    },
+    "w4.wave_start_indicator": {
+        "sounds": [ "walmart:w4.wave_start_indicator" ]
+    },
+    "w5.scream": {
+        "sounds": [ "walmart:w5.scream" ]
+    }
+}

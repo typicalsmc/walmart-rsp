@@ -1,0 +1,10 @@
+{
+	"parent": "walmart:entity/ninja_ghost/left_arm",
+	"display": {
+		"head": {
+			"translation": [0, -3.1872, 0],
+			"scale": [1.004, 1.004, 1.004],
+			"rotation": [0, 0, 0]
+		}
+	}
+}

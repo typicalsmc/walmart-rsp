@@ -1,0 +1,15 @@
+{
+	"variants": {
+		"": [
+			{
+				"model": "minecraft:block/nebula_plant_large_flower",
+				"weight": 5
+			},
+			{ "model": "minecraft:block/nebula_rock_0", "weight": 6 },
+			{ "model": "minecraft:block/nebula_rock_1", "weight": 6 },
+			{ "model": "minecraft:block/nebula_rock_2", "weight": 2 },
+			{ "model": "minecraft:block/nebula_rock_3", "weight": 2 },
+			{ "model": "minecraft:block/nebula_rock_4", "weight": 1 }
+		]
+	}
+}

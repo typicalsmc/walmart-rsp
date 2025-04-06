@@ -1,0 +1,10 @@
+{
+	"parent": "walmart:entity/worm_book/head",
+	"display": {
+		"head": {
+			"translation": [0, -3.1968, 0],
+			"scale": [0.997, 1.001, 0.997],
+			"rotation": [0, 0, 0]
+		}
+	}
+}

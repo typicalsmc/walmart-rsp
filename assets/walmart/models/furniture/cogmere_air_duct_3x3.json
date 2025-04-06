@@ -1,0 +1,109 @@
+{
+	"credit": "Made by OPHANEM with Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "walmart:furniture/cogmere_air_duct",
+		"2": "walmart:furniture/3x3_44_fan",
+		"particle": "walmart:furniture/cogmere_air_duct"
+	},
+	"elements": [
+		{
+			"name": "fan",
+			"from": [2, 1.5, 2],
+			"to": [14, 1.5, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1.0625, 8]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"down": {"uv": [16, 0, 0, 16], "texture": "#2"}
+			}
+		},
+		{
+			"name": "3x3 inverted",
+			"from": [14, 2, 14],
+			"to": [2, 0, 2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1.0625, 8]},
+			"faces": {
+				"north": {"uv": [6, 10, 12, 9], "texture": "#0"},
+				"east": {"uv": [6, 10, 12, 9], "texture": "#0"},
+				"south": {"uv": [6, 10, 12, 9], "texture": "#0"},
+				"west": {"uv": [6, 10, 12, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "backboard",
+			"from": [14, 1, 14],
+			"to": [2, 0.25, 2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1.0625, 8]},
+			"faces": {
+				"up": {"uv": [6, 10, 12, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "3x3",
+			"from": [2, 0, 2],
+			"to": [14, 2, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1.0625, 8]},
+			"faces": {
+				"north": {"uv": [0, 9, 6, 10], "texture": "#0"},
+				"east": {"uv": [0, 9, 6, 10], "texture": "#0"},
+				"south": {"uv": [0, 9, 6, 10], "texture": "#0"},
+				"west": {"uv": [0, 9, 6, 10], "texture": "#0"},
+				"up": {"uv": [0, 10, 6, 16], "texture": "#0"},
+				"down": {"uv": [12, 10, 6, 16], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 1.75],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 4, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"translation": [0, 3, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"translation": [4, 1, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"translation": [0, 4, 0],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, 4, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -22],
+			"scale": [2.75, 2.75, 2.75]
+		}
+	},
+	"groups": [
+		{
+			"name": "3x3fan",
+			"origin": [-8, 0, -8],
+			"color": 0,
+			"boneType": "",
+			"children": [
+				0,
+				{
+					"name": "boxbig",
+					"origin": [-8, 0, -8],
+					"color": 0,
+					"boneType": "",
+					"children": [1, 2, 3]
+				}
+			]
+		}
+	]
+}

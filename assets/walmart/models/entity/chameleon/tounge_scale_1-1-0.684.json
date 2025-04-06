@@ -1,0 +1,10 @@
+{
+	"parent": "walmart:entity/chameleon/tounge_scale",
+	"display": {
+		"head": {
+			"translation": [0, 5.6, 0],
+			"scale": [4, 4, 2.736],
+			"rotation": [0, 0, 0]
+		}
+	}
+}

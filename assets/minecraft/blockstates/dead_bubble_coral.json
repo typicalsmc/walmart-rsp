@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "": [
+      { "model": "walmart:furniture/paper_pile_1_large" },
+      { "model": "walmart:furniture/paper_pile_2_large" },
+      { "model": "walmart:furniture/paper_pile_3_large" },
+      { "model": "walmart:furniture/paper_pile_4_large" },
+
+      { "model": "walmart:furniture/paper_pile_1_large", "y":90 },
+      { "model": "walmart:furniture/paper_pile_2_large", "y":90 },
+      { "model": "walmart:furniture/paper_pile_3_large", "y":90 },
+      { "model": "walmart:furniture/paper_pile_4_large", "y":90 },
+
+      { "model": "walmart:furniture/paper_pile_1_large", "y":180 },
+      { "model": "walmart:furniture/paper_pile_2_large", "y":180 },
+      { "model": "walmart:furniture/paper_pile_3_large", "y":180 },
+      { "model": "walmart:furniture/paper_pile_4_large", "y":180 },
+
+      { "model": "walmart:furniture/paper_pile_1_large", "y":270 },
+      { "model": "walmart:furniture/paper_pile_2_large", "y":270 },
+      { "model": "walmart:furniture/paper_pile_3_large", "y":270 },
+      { "model": "walmart:furniture/paper_pile_4_large", "y":270 }
+    ]
+  }
+}

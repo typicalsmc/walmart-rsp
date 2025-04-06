@@ -1,0 +1,10 @@
+{
+	"parent": "walmart:entity/worm_tree/mushroom_left",
+	"display": {
+		"head": {
+			"translation": [0, -3.1584, 0],
+			"scale": [0.99, 1.013, 0.978],
+			"rotation": [0, 0, 0]
+		}
+	}
+}

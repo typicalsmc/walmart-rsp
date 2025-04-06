@@ -1,0 +1,57 @@
+{
+	"credit": "Made by Ziqqy using Blockbench",
+	"parent": "walmart:display_parents/furniture",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "walmart:furniture/holo_station_1",
+		"particle": "walmart:furniture/holo_station_1"
+	},
+	"elements": [
+		{
+			"from": [12.75, 0, 7.625],
+			"to": [14, 8, 8.375],
+			"rotation": {"angle": 0, "axis": "y", "origin": [13.5, 4, 7.75]},
+			"faces": {
+				"north": {"uv": [4.75, 0, 5.375, 4], "texture": "#0"},
+				"east": {"uv": [5.375, 0, 5.75, 4], "texture": "#0"},
+				"south": {"uv": [5.375, 0, 4.75, 4], "texture": "#0"},
+				"west": {"uv": [5.75, 0, 6.125, 4], "texture": "#0"},
+				"up": {"uv": [6.75, 0.375, 6.125, 0], "texture": "#0"},
+				"down": {"uv": [6.75, 0.375, 6.125, 0.75], "texture": "#0"}
+			}
+		},
+		{
+			"from": [2, 0, 7.625],
+			"to": [3.25, 8, 8.375],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2.5, 4, 7.75]},
+			"faces": {
+				"north": {"uv": [5.375, 0, 4.75, 4], "texture": "#0"},
+				"east": {"uv": [6.125, 0, 5.75, 4], "texture": "#0"},
+				"south": {"uv": [4.75, 0, 5.375, 4], "texture": "#0"},
+				"west": {"uv": [5.75, 0, 5.375, 4], "texture": "#0"},
+				"up": {"uv": [6.125, 0.375, 6.75, 0], "texture": "#0"},
+				"down": {"uv": [6.125, 0.375, 6.75, 0.75], "texture": "#0"}
+			}
+		},
+		{
+			"from": [3.25, 0, 8],
+			"to": [12.75, 8, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [12.25, 4, 7.75]},
+			"faces": {
+				"north": {"uv": [0, 12, 4.75, 16], "texture": "#0"},
+				"east": {"uv": [0, 12, 0, 16], "texture": "#0"},
+				"south": {"uv": [4.75, 12, 0, 16], "texture": "#0"},
+				"west": {"uv": [0, 12, 0, 16], "texture": "#0"},
+				"up": {"uv": [4.75, 12, 0, 12], "texture": "#0"},
+				"down": {"uv": [4.75, 12, 0, 12], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, 4.75, 0],
+			"scale": [1.36, 1.36, 1.36]
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "walmart:items/vault_key_tint",
+    "layer1": "walmart:items/vault_key"
+  }
+}

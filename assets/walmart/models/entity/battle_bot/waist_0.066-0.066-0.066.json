@@ -1,0 +1,10 @@
+{
+	"parent": "walmart:entity/battle_bot/waist",
+	"display": {
+		"head": {
+			"translation": [0, -6.1888, 0],
+			"scale": [0.066, 0.066, 0.066],
+			"rotation": [0, 0, 0]
+		}
+	}
+}

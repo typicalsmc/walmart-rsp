@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "walmart:items/wire_green_3",
+    "layer1": "walmart:items/wire_green_3"
+  }
+}

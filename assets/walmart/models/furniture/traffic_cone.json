@@ -1,0 +1,94 @@
+{
+	"credit": "Made with Blockbench, by EnderIzzy124",
+	"parent": "walmart:display_parents/furniture",
+	"textures": {
+		"1": "walmart:furniture/traffic_cone_texture",
+		"particle": "walmart:furniture/traffic_cone_texture"
+	},
+	"elements": [
+		{
+			"name": "base",
+			"from": [6.75, 0, 6.75],
+			"to": [9.25, 0.25, 9.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.875, 0.125, 7.875]},
+			"faces": {
+				"north": {"uv": [9.968, 0.968, 0.032, 0.032], "texture": "#1"},
+				"east": {"uv": [9.968, 0.968, 0.032, 0.032], "texture": "#1"},
+				"south": {"uv": [9.968, 0.968, 0.032, 0.032], "texture": "#1"},
+				"west": {"uv": [9.968, 0.968, 0.032, 0.032], "texture": "#1"},
+				"up": {"uv": [9.968, 9.968, 0.032, 0.032], "texture": "#1"},
+				"down": {"uv": [9.968, 9.968, 0.032, 0.032], "texture": "#1"}
+			}
+		},
+		{
+			"name": "layer_one",
+			"from": [7.25, 0.25, 7.25],
+			"to": [8.75, 1.75, 8.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1, 8]},
+			"faces": {
+				"north": {"uv": [0.032, 10.032, 5.968, 15.968], "texture": "#1"},
+				"east": {"uv": [0.032, 10.032, 5.968, 15.968], "texture": "#1"},
+				"south": {"uv": [0.032, 10.032, 5.968, 15.968], "texture": "#1"},
+				"west": {"uv": [0.032, 10.032, 5.968, 15.968], "texture": "#1"},
+				"up": {"uv": [15.968, 5.968, 10.032, 0.032], "texture": "#1"}
+			}
+		},
+		{
+			"name": "layer_two",
+			"from": [7.5, 1.75, 7.5],
+			"to": [8.5, 3.25, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2.5, 8]},
+			"faces": {
+				"north": {"uv": [6.032, 10.032, 9.968, 15.968], "texture": "#1"},
+				"east": {"uv": [6.032, 10.032, 9.968, 15.968], "texture": "#1"},
+				"south": {"uv": [6.032, 10.032, 9.968, 15.968], "texture": "#1"},
+				"west": {"uv": [6.032, 10.032, 9.968, 15.968], "texture": "#1"},
+				"up": {"uv": [13.968, 9.968, 10.032, 6.032], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 5, 14],
+			"scale": [2.01, 2.01, 2.01]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 5, 14],
+			"scale": [2.01, 2.01, 2.01]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 225, 0],
+			"translation": [2, 11.75, 0],
+			"scale": [1.27, 1.27, 1.27]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"translation": [2, 11.75, 0],
+			"scale": [1.27, 1.27, 1.27]
+		},
+		"ground": {
+			"translation": [0, 4.75, 0]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, 14.75, 0],
+			"scale": [2.51, 2.51, 2.51]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -16],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "traffic_cone",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"boneType": "",
+			"children": [0, 1, 2]
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"parent": "walmart:entity/worm_coulomb/neck",
+	"display": {
+		"head": {
+			"translation": [0, -3.2, 0],
+			"scale": [1.088, 1, 1.088],
+			"rotation": [0, 0, 0]
+		}
+	}
+}

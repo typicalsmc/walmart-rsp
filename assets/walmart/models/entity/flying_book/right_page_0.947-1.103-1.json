@@ -1,0 +1,10 @@
+{
+	"parent": "walmart:entity/flying_book/right_page",
+	"display": {
+		"head": {
+			"translation": [0, -2.8704, 0],
+			"scale": [0.947, 1.103, 1],
+			"rotation": [0, 0, 0]
+		}
+	}
+}

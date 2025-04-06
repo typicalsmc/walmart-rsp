@@ -1,0 +1,10 @@
+{
+	"parent": "walmart:entity/flying_shroom_spore/vines",
+	"display": {
+		"head": {
+			"translation": [0, 10.7632, 0],
+			"scale": [0.312, 0.312, 0.312],
+			"rotation": [0, 0, 0]
+		}
+	}
+}

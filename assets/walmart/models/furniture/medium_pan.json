@@ -1,0 +1,85 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "walmart:display_parents/furniture",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "walmart:furniture/pan_set",
+		"particle": "walmart:furniture/pan_set"
+	},
+	"elements": [
+		{
+			"from": [6.75, 0, 6.75],
+			"to": [9.25, 1.5, 9.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.25, 0, 6.25]},
+			"faces": {
+				"north": {"uv": [1.25, 3.75, 2.5, 4.5], "texture": "#0"},
+				"east": {"uv": [0, 3.75, 1.25, 4.5], "texture": "#0"},
+				"south": {"uv": [3.75, 3.75, 5, 4.5], "texture": "#0"},
+				"west": {"uv": [2.5, 3.75, 3.75, 4.5], "texture": "#0"},
+				"down": {"uv": [3.75, 2.5, 2.5, 3.75], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.625, 1.25, 4.75],
+			"to": [8.375, 1.5, 6.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5.375, 0, 3.75]},
+			"faces": {
+				"north": {"uv": [1, 5.5, 1.375, 5.625], "texture": "#0"},
+				"east": {"uv": [0, 5.5, 1, 5.625], "texture": "#0"},
+				"south": {"uv": [2.375, 5.5, 2.75, 5.625], "texture": "#0"},
+				"west": {"uv": [1.375, 5.5, 2.375, 5.625], "texture": "#0"},
+				"up": {"uv": [1.375, 5.5, 1, 4.5], "texture": "#0"},
+				"down": {"uv": [1.75, 4.5, 1.375, 5.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cube inverted",
+			"from": [6.75, 0.025, 9.25],
+			"to": [9.25, 1.5, 6.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.25, 1.5, 8.75]},
+			"faces": {
+				"north": {"uv": [3.75, 3.75, 5, 4.5], "texture": "#0"},
+				"east": {"uv": [2.5, 3.75, 3.75, 4.5], "texture": "#0"},
+				"south": {"uv": [1.25, 3.75, 2.5, 4.5], "texture": "#0"},
+				"west": {"uv": [0, 3.75, 1.25, 4.5], "texture": "#0"},
+				"down": {"uv": [2.5, 3.75, 3.75, 2.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 12],
+			"scale": [2, 2, 2]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 15, 0],
+			"scale": [2, 2, 2]
+		},
+		"ground": {
+			"translation": [0, 7, 0]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, 12, 0],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "pan set",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"boneType": "",
+			"children": [
+				{
+					"name": "medium_pan",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"boneType": "",
+					"children": [0, 1, 2]
+				}
+			]
+		}
+	]
+}

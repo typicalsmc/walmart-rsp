@@ -1,0 +1,32 @@
+{
+	"textures": {
+		"1": "walmart:shaders/starlog",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [3.5, 7.625, 8],
+			"to": [12.5, 10.625, 8],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [6.5, 10.625, 8]
+			},
+			"faces": {
+				"north": {
+					"uv": [16, 14, 9.25, 16],
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [9.25, 14, 16, 16],
+					"texture": "#1"
+				}
+			}
+		}
+	]
+}

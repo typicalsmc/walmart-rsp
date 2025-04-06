@@ -1,0 +1,10 @@
+{
+	"parent": "walmart:entity/magnetic_golem/left_eyebrow",
+	"display": {
+		"head": {
+			"translation": [0, -2.6496, 0],
+			"scale": [1.172, 1.172, 1.172],
+			"rotation": [0, 0, 0]
+		}
+	}
+}

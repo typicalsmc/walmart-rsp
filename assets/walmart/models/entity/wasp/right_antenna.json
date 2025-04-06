@@ -1,0 +1,1 @@
+{"textures":{"0":"walmart:entity/wasp/wasp_texture"},"elements":[{"faces":{"east":{"uv":[9,10.5,7,12],"texture":"#0","tintindex":0},"west":{"uv":[7,10.5,9,12],"texture":"#0","tintindex":0}},"to":[8.005,5.8,8.4],"from":[7.995,4.6,6.8],"rotation":{"angle":0,"axis":"y","origin":[7.005,1.8,10]}}],"display":{"head":{"translation":[0,5.6,0],"scale":[4,4,4],"rotation":[0,0,0]}}}

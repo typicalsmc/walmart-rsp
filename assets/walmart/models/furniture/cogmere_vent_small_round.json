@@ -1,0 +1,85 @@
+{
+	"credit": "Made by OPHANEM with Blockbench",
+	"texture_size": [48, 48],
+	"textures": {
+		"0": "walmart:furniture/cogmere_vents",
+		"particle": "walmart:furniture/cogmere_vents"
+	},
+	"elements": [
+		{
+			"from": [6.75, 0, 7.625],
+			"to": [9.25, 2.5, 8.375],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5.25, 0, 7.625]},
+			"faces": {
+				"north": {"uv": [12.66667, 7.33333, 16, 10.66667], "texture": "#0"},
+				"east": {"uv": [10.66667, 7.33333, 11.66667, 10.66667], "texture": "#0"},
+				"south": {"uv": [11.66667, 12, 15, 15.33333], "texture": "#0"},
+				"west": {"uv": [10.66667, 7.33333, 11.66667, 10.66667], "texture": "#0"},
+				"up": {"uv": [10.66667, 5, 16, 6], "texture": "#0"},
+				"down": {"uv": [10.66667, 6, 16, 7], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cube inverted",
+			"from": [9.25, 2.5, 8.375],
+			"to": [6.75, 0, 7.625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5.25, 0, 7.625]},
+			"faces": {
+				"east": {"uv": [10.66667, 10.66667, 11.66667, 7.33333], "texture": "#0"},
+				"west": {"uv": [10.66667, 10.66667, 11.66667, 7.33333], "texture": "#0"},
+				"up": {"uv": [16, 6, 10.66667, 7], "texture": "#0"},
+				"down": {"uv": [16, 5, 10.66667, 6], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cube inverted",
+			"from": [9.25, 2.5, 8.125],
+			"to": [6.75, 0, 7.875],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5.25, 0, 7.375]},
+			"faces": {
+				"north": {"uv": [11.66667, 15.33333, 15, 12], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 8, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 8, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 90, -35],
+			"translation": [-2, 8, 1.13]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -35],
+			"translation": [-2, 8, 1.13]
+		},
+		"ground": {
+			"translation": [0, 8, 0],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, 15.5, 0],
+			"scale": [3, 3, 3]
+		},
+		"fixed": {
+			"translation": [0, 24, -0.25],
+			"scale": [4, 4, 4]
+		}
+	},
+	"groups": [
+		{
+			"name": "small",
+			"origin": [5, 0, 7.625],
+			"color": 0,
+			"boneType": "",
+			"children": [0, 1, 2]
+		}
+	]
+}

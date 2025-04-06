@@ -1,0 +1,61 @@
+{
+	"credit": "Made by Ziqqy using Blockbench",
+	"parent": "walmart:display_parents/furniture",
+	"ambientocclusion": false,
+	"texture_size": [256, 256],
+	"textures": {
+		"10": "walmart:furniture/nebula_plant_wall_tall_grass"
+	},
+	"elements": [
+		{
+			"from": [10.45372, 1.25, 0.06292],
+			"to": [10.45372, 17.75, 9.31292],
+			"shade": false,
+			"light_emission": 15,
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [7.74977, 8.32008, 4.74545]},
+			"faces": {
+				"east": {"uv": [0, 4.125, 2.3125, 8.25], "texture": "#10"},
+				"west": {"uv": [2.3125, 4.125, 0, 8.25], "texture": "#10"}
+			}
+		},
+		{
+			"from": [8.5, -0.26071, -2.16424],
+			"to": [8.5, 16.23929, 7.08576],
+			"shade": false,
+			"light_emission": 15,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [7.74977, 8.32008, 4.74545]},
+			"faces": {
+				"east": {"uv": [2.3125, 0, 4.625, 4.125], "texture": "#10"},
+				"west": {"uv": [4.625, 0, 2.3125, 4.125], "texture": "#10"}
+			}
+		},
+		{
+			"from": [4.56473, 1.25, -0.25853],
+			"to": [4.56473, 17.75, 8.99147],
+			"shade": false,
+			"light_emission": 15,
+			"rotation": {"angle": 45, "axis": "y", "origin": [7.74977, 8.32008, 4.74545]},
+			"faces": {
+				"east": {"uv": [0, 0, 2.3125, 4.125], "texture": "#10"},
+				"west": {"uv": [2.3125, 0, 0, 4.125], "texture": "#10"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [1, -2, 0],
+			"scale": [0.76, 0.76, 0.76]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [-24, 73, 112],
+			"color": 0,
+			"boneType": "",
+			"shade": false,
+			"children": [0, 1, 2]
+		}
+	]
+}

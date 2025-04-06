@@ -1,0 +1,68 @@
+{
+	"credit": "Tux",
+	"parent": "walmart:display_parents/furniture",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "walmart:furniture/holo_number",
+		"particle": "walmart:furniture/holo_number"
+	},
+	"elements": [
+		{
+			"name": "frame",
+			"from": [-10, 0, 10],
+			"to": [26, 14, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -9, 10]},
+			"faces": {
+				"north": {"uv": [5.75, 0, 10.25, 1.75], "texture": "#0"},
+				"east": {"uv": [10.78125, 0, 10.28125, 1.75], "texture": "#0"},
+				"south": {"uv": [0, 3.75, 2.75, 6.5], "texture": "#0"},
+				"west": {"uv": [10.28125, 0, 10.78125, 1.75], "texture": "#0"},
+				"up": {"uv": [2.75, 3.75, 0, 3.25], "texture": "#0"},
+				"down": {"uv": [2.75, 2.75, 0, 3.25], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cube inverted",
+			"from": [-8.25, 12.25, 10],
+			"to": [24.25, 1.75, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.75, 8.75, 9]},
+			"faces": {
+				"east": {"uv": [10.28125, 3.28125, 10.40625, 1.78125], "texture": "#0"},
+				"south": {"uv": [5.75, 3.28125, 10.25, 1.78125], "texture": "#0"},
+				"west": {"uv": [10.40625, 3.28125, 10.28125, 1.78125], "texture": "#0"},
+				"up": {"uv": [5.75, 3.4375, 10.25, 3.3125], "texture": "#0"},
+				"down": {"uv": [5.75, 3.4375, 10.25, 3.3125], "texture": "#0"}
+			}
+		},
+		{
+			"name": "number",
+			"from": [-4, 3, 10.5],
+			"to": [20, 11, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -9, 9]},
+			"faces": {
+				"north": {"uv": [0.40625, 9.59375, 3.40625, 10.59375], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 4],
+			"scale": [1.4, 1.4, 1.4]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"translation": [3, 4.25, -2],
+			"scale": [1.4, 1.4, 1.4]
+		},
+		"ground": {
+			"translation": [0, 5, 0]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [2, -2.5, 0],
+			"scale": [0.59, 0.59, 0.59]
+		}
+	}
+}

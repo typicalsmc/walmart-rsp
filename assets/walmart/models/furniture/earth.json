@@ -1,0 +1,45 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "walmart:display_parents/furniture",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "walmart:furniture/earth64"
+	},
+	"elements": [
+		{
+			"name": "earth",
+			"from": [4, 0, 4],
+			"to": [12, 8, 12],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 4, 8]},
+			"faces": {
+				"north": {"uv": [8, 12, 4, 8], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [0, 4, 4, 8], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [8, 4, 4, 0], "texture": "#1"},
+				"west": {"uv": [8, 4, 12, 8], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [4, 4, 8, 8], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [12, 4, 16, 8], "texture": "#1"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, 4.25, 0],
+			"scale": [1.38, 1.38, 1.38]
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"parent": "walmart:entity/space_jellyfish/head",
+	"display": {
+		"head": {
+			"translation": [0, -3.1008, 0],
+			"scale": [0.984, 1.031, 0.984],
+			"rotation": [0, 0, 0]
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"parent": "walmart:entity/flying_book/spine",
+	"display": {
+		"head": {
+			"translation": [0, -3.344, 0],
+			"scale": [1.047, 0.955, 1],
+			"rotation": [0, 0, 0]
+		}
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [256, 256],
+	"textures": {
+		"0": "walmart:shaders/2d/tiles_0",
+		"particle": "walmart:shaders/2d/tiles_0"
+	},
+	"elements": [
+		{
+			"from": [-16, -16, -16],
+			"to": [3, 32, -16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, -16]},
+			"faces": {
+				"north": {"uv": [10.8125, 13, 12, 16], "texture": "#0"},
+				"south": {"uv": [10.8125, 13, 12, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [14, -16, 8],
+			"to": [32, 32, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [9, 13, 10.125, 16], "texture": "#0"},
+				"south": {"uv": [9, 13, 10.125, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"scale": [0.3, 0.3, 0.3]
+		}
+	}
+}

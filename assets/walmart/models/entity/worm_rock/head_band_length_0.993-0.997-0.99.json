@@ -1,0 +1,10 @@
+{
+	"parent": "walmart:entity/worm_rock/head_band_length",
+	"display": {
+		"head": {
+			"translation": [0, -3.2096, 0],
+			"scale": [0.993, 0.997, 0.99],
+			"rotation": [0, 0, 0]
+		}
+	}
+}

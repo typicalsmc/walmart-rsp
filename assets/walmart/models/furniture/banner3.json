@@ -1,0 +1,73 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "walmart:display_parents/furniture",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "walmart:furniture/banner3",
+		"particle": "walmart:furniture/banner3"
+	},
+	"elements": [
+		{
+			"from": [6, -0.125, 8],
+			"to": [10, 11.875, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.875, 8.25]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 6], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [0, 0, 2, 6], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [6, -0.125, 8],
+			"to": [10, 11.875, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.875, 8.25]},
+			"faces": {
+				"north": {"uv": [2, 0, 4, 6], "texture": "#0"},
+				"south": {"uv": [2, 0, 4, 6], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4.75, 11.3125, 8],
+			"to": [11.25, 12.5625, 8],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 11.9375, 8]},
+			"faces": {
+				"north": {"uv": [4, 4, 7.25, 4.625], "texture": "#0"},
+				"south": {"uv": [4, 4, 7.25, 4.625], "texture": "#0"}
+			}
+		},
+		{
+			"from": [10.25, 3.875, 8],
+			"to": [11, 11.875, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [13, 3.875, 8.25]},
+			"faces": {
+				"north": {"uv": [0, 6, 0.375, 10], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [0, 6, 0.375, 10], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [5, 3.875, 8],
+			"to": [5.75, 11.875, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 3.875, 8.25]},
+			"faces": {
+				"north": {"uv": [0.375, 6, 0, 10], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [0.375, 6, 0, 10], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [6, 10.125, 8],
+			"to": [10, 14.125, 8],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 12.125, 8]},
+			"faces": {
+				"north": {"uv": [4, 0, 6, 2], "texture": "#0"},
+				"south": {"uv": [4, 0, 6, 2], "rotation": 90, "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "bone3",
+			"origin": [8, 0.625, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5]
+		}
+	]
+}

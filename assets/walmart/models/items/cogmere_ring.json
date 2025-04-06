@@ -1,0 +1,70 @@
+{
+	"credit": "Made by OPHANEM with Blockbench",
+	"parent": "walmart:display_parents/furniture",
+	"textures": {
+		"0": "walmart:items/cogmere_ring",
+		"particle": "walmart:items/cogmere_ring"
+	},
+	"elements": [
+		{
+			"name": "inner",
+			"from": [6, 6, 6],
+			"to": [10, 9, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 7, 7]},
+			"faces": {
+				"north": {"uv": [4, 0, 8, 3], "texture": "#0"},
+				"east": {"uv": [0, 0, 4, 3], "texture": "#0"},
+				"south": {"uv": [4, 0, 8, 3], "texture": "#0"},
+				"west": {"uv": [0, 0, 4, 3], "texture": "#0"}
+			}
+		},
+		{
+			"name": "outer",
+			"from": [5.9, 5.9, 5.9],
+			"to": [10.1, 9.1, 10.1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 7, 7]},
+			"faces": {
+				"north": {"uv": [4, 3, 8, 6], "texture": "#0"},
+				"east": {"uv": [0, 3, 4, 6], "texture": "#0"},
+				"south": {"uv": [4, 3, 8, 6], "texture": "#0"},
+				"west": {"uv": [0, 3, 4, 6], "texture": "#0"}
+			}
+		},
+		{
+			"name": "outer inverted",
+			"from": [10.1, 9.1, 10.1],
+			"to": [5.9, 5.9, 5.9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 7, 7]},
+			"faces": {
+				"north": {"uv": [12, 6, 16, 3], "texture": "#0"},
+				"east": {"uv": [8, 6, 12, 3], "texture": "#0"},
+				"south": {"uv": [12, 6, 16, 3], "texture": "#0"},
+				"west": {"uv": [8, 6, 12, 3], "texture": "#0"}
+			}
+		},
+		{
+			"name": "inner inverted",
+			"from": [10, 9, 10],
+			"to": [6, 6, 6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 7, 7]},
+			"faces": {
+				"north": {"uv": [12, 3, 16, 0], "texture": "#0"},
+				"east": {"uv": [8, 3, 12, 0], "texture": "#0"},
+				"south": {"uv": [12, 3, 16, 0], "texture": "#0"},
+				"west": {"uv": [8, 3, 12, 0], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, 0, 0],
+			"translation": [0, -2, 4],
+			"scale": [1.13, 1, 1.13]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, 1, 0],
+			"scale": [2, 2, 2]
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"parent": "walmart:entity/flying_shroom_spore/face_close",
+	"display": {
+		"head": {
+			"translation": [0, 9.1672, 0],
+			"scale": [1.452, 1.452, 1.452],
+			"rotation": [0, 0, 0]
+		}
+	}
+}

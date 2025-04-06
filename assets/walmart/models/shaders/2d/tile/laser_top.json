@@ -1,0 +1,27 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "walmart:shaders/2d/2d_lasers_anim"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 8],
+			"to": [16, 3, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -13, 8]},
+			"faces": {
+				"north": {"uv": [0, 6.5, 8, 8], "texture": "#1"},
+				"south": {"uv": [8, 6.5, 0, 8], "texture": "#1"}
+			}
+		},
+		{
+			"from": [0, 3, 8],
+			"to": [16, 16, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 3, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 6.5], "texture": "#1", "tintindex": 0},
+				"south": {"uv": [8, 0, 0, 6.5], "texture": "#1", "tintindex": 0}
+			}
+		}
+	]
+}

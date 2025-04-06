@@ -1,0 +1,19 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"2": "walmart:shaders/2d/2d_tiles_0_anim",
+		"particle": "walmart:shaders/2d/2d_tiles_0_anim"
+	},
+	"elements": [
+		{
+			"from": [-1, -1, 8],
+			"to": [17, 17, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [8, 8.25, 12.5, 12.75], "texture": "#2"},
+				"south": {"uv": [8, 8.25, 12.5, 12.75], "texture": "#2"}
+			}
+		}
+	]
+}

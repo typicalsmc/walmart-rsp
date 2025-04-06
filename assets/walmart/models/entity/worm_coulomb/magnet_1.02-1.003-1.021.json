@@ -1,0 +1,10 @@
+{
+	"parent": "walmart:entity/worm_coulomb/magnet",
+	"display": {
+		"head": {
+			"translation": [0, -3.1904, 0],
+			"scale": [1.02, 1.003, 1.021],
+			"rotation": [0, 0, 0]
+		}
+	}
+}

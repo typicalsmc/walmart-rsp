@@ -1,0 +1,10 @@
+{
+	"parent": "walmart:entity/worm_rock/hat",
+	"display": {
+		"head": {
+			"translation": [0, -3.2, 0],
+			"scale": [0.924, 1, 0.924],
+			"rotation": [0, 0, 0]
+		}
+	}
+}

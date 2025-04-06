@@ -1,0 +1,129 @@
+{
+	"credit": "Made using Blockbench",
+	"parent": "walmart:display_parents/furniture",
+	"texture_size": [32, 32],
+	"textures": {
+		"12": "walmart:furniture/nebula_mushroom_variations",
+		"particle": "walmart:furniture/nebula_mushroom_variations"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 6, 9],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 3, 8]},
+			"faces": {
+				"north": {"uv": [2.5, 0, 3.5, 3], "texture": "#12"},
+				"east": {"uv": [2.5, 0, 3.5, 3], "texture": "#12"},
+				"south": {"uv": [2.5, 0, 3.5, 3], "texture": "#12"},
+				"west": {"uv": [2.5, 0, 3.5, 3], "texture": "#12"},
+				"down": {"uv": [5.75, 4.75, 4.75, 5.75], "texture": "#12"}
+			}
+		},
+		{
+			"from": [5.875, 5.47329, 5.51955],
+			"to": [10.875, 7.47329, 10.51955],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8.375, 6.47329, 8.01955]},
+			"faces": {
+				"north": {"uv": [2.5, 3, 5, 4], "texture": "#12"},
+				"east": {"uv": [3.5, 0, 6, 1], "texture": "#12"},
+				"south": {"uv": [3.5, 1, 6, 2], "texture": "#12"},
+				"west": {"uv": [3.5, 2, 6, 3], "texture": "#12"},
+				"up": {"uv": [2.5, 2.5, 0, 0], "texture": "#12"},
+				"down": {"uv": [2.48874, 2.49673, 0, 4.98547], "texture": "#12"}
+			}
+		},
+		{
+			"from": [5.68237, 5.00612, 5.51955],
+			"to": [5.68237, 6.50612, 10.51955],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.18237, 5.50612, 8.01955]},
+			"faces": {
+				"east": {"uv": [2.5, 4, 5, 4.75], "texture": "#12"},
+				"west": {"uv": [2.5, 4, 5, 4.75], "texture": "#12"}
+			}
+		},
+		{
+			"from": [5.57142, 4.03367, 5.51955],
+			"to": [10.57142, 5.53367, 5.51955],
+			"light_emission": 15,
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8.07142, 5.74038, 7.82937]},
+			"faces": {
+				"north": {"uv": [2.5, 4, 5, 4.75], "texture": "#12"},
+				"south": {"uv": [2.5, 4, 5, 4.75], "texture": "#12"}
+			}
+		},
+		{
+			"from": [10.30202, 3.0927, 5.51955],
+			"to": [10.30202, 4.5927, 10.51955],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.80202, 3.5927, 8.01955]},
+			"faces": {
+				"east": {"uv": [2.5, 4, 5, 4.75], "texture": "#12"},
+				"west": {"uv": [2.5, 4, 5, 4.75], "texture": "#12"}
+			}
+		},
+		{
+			"from": [4.83919, 4.17932, 10.5193],
+			"to": [9.83919, 5.67932, 10.5193],
+			"light_emission": 15,
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [7.33919, 3.97261, 8.20948]},
+			"faces": {
+				"north": {"uv": [2.5, 4, 5, 4.75], "texture": "#12"},
+				"south": {"uv": [2.5, 4, 5, 4.75], "texture": "#12"}
+			}
+		},
+		{
+			"from": [7, 2.79375, 4.6232],
+			"to": [9.25, 3.79375, 6.8732],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 3.41875, 5.6232]},
+			"faces": {
+				"north": {"uv": [0, 5, 1.125, 5.5], "texture": "#12"},
+				"east": {"uv": [1.125, 5, 2.25, 5.5], "texture": "#12"},
+				"south": {"uv": [5, 3, 6.125, 3.5], "texture": "#12"},
+				"west": {"uv": [5, 3.5, 6.125, 4], "texture": "#12"},
+				"up": {"uv": [3.625, 5.875, 2.5, 4.75], "texture": "#12"},
+				"down": {"uv": [4.75, 4.75, 3.625, 5.875], "texture": "#12"}
+			}
+		},
+		{
+			"from": [7.5, 1.94648, 5.59547],
+			"to": [8.5, 2.94648, 7.72047],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8.5, 2.44648, 6.59547]},
+			"faces": {
+				"east": {"uv": [5, 4, 6, 4.5], "texture": "#12"},
+				"west": {"uv": [0, 5.5, 1, 6], "texture": "#12"},
+				"up": {"uv": [1.5, 6.5, 1, 5.5], "texture": "#12"},
+				"down": {"uv": [2, 6.5, 1.5, 5.5], "texture": "#12"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [1.25, 5, 0],
+			"scale": [1.53, 1.53, 1.53]
+		}
+	},
+	"groups": [
+		{
+			"name": "mushy",
+			"origin": [6.70806, 9.87079, 15.0782],
+			"color": 0,
+			"children": [
+				0,
+				{
+					"name": "m",
+					"origin": [7.21419, 2.84761, 9.95948],
+					"color": 0,
+					"children": [1, 2, 3, 4, 5]
+				},
+				{
+					"name": "m",
+					"origin": [8.5, 2.44648, 6.97047],
+					"color": 0,
+					"children": [6, 7]
+				}
+			]
+		}
+	]
+}

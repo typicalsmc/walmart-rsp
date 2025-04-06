@@ -1,0 +1,66 @@
+{
+	"credit": "hatsondogs",
+	"parent": "walmart:display_parents/furniture",
+	"ambientocclusion": false,
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "walmart:furniture/bulk_paper_towel_pack_tintable"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 6.625],
+			"to": [10, 2.5, 9.375],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0, 6.625]},
+			"faces": {
+				"north": {"uv": [0, 2.75, 4, 5.25], "texture": "#1"},
+				"east": {"uv": [4, 2.75, 6.75, 5.25], "texture": "#1"},
+				"south": {"uv": [0, 2.75, 4, 5.25], "texture": "#1"},
+				"west": {"uv": [4, 2.75, 6.75, 5.25], "texture": "#1"},
+				"up": {"uv": [0, 0, 4, 2.75], "texture": "#1"},
+				"down": {"uv": [4, 0, 8, 2.75], "texture": "#1"}
+			}
+		},
+		{
+			"from": [5.9375, -0.0625, 6.5625],
+			"to": [10.0625, 2.5625, 9.4375],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0, 6.625]},
+			"faces": {
+				"north": {"uv": [0, 5.25, 4, 7.75], "texture": "#1", "tintindex": 0},
+				"east": {"uv": [4, 5.25, 6.75, 7.75], "texture": "#1", "tintindex": 0},
+				"south": {"uv": [0, 5.25, 4, 7.75], "texture": "#1", "tintindex": 0},
+				"west": {"uv": [4, 5.25, 6.75, 7.75], "texture": "#1", "tintindex": 0}
+			}
+		},
+		{
+			"from": [5.9375, -0.0625, 6.5625],
+			"to": [10.0625, 2.5625, 9.4375],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0, 6.625]},
+			"faces": {
+				"north": {"uv": [7, 5.25, 11, 7.75], "texture": "#1"},
+				"east": {"uv": [11, 5.25, 13.75, 7.75], "texture": "#1"},
+				"south": {"uv": [7, 5.25, 11, 7.75], "texture": "#1"},
+				"west": {"uv": [11, 5.25, 13.75, 7.75], "texture": "#1"}
+			}
+		},
+		{
+			"name": "cube inverted",
+			"from": [10.0625, 2.5625, 9.4375],
+			"to": [5.9375, -0.0625, 6.5625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0, 6.625]},
+			"faces": {
+				"north": {"uv": [0, 7.75, 4, 5.25], "texture": "#1"},
+				"east": {"uv": [4, 7.75, 6.75, 5.25], "texture": "#1"},
+				"south": {"uv": [0, 7.75, 4, 5.25], "texture": "#1"},
+				"west": {"uv": [4, 7.75, 6.75, 5.25], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

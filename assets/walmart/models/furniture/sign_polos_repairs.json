@@ -1,0 +1,76 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "walmart:display_parents/furniture",
+	"texture_size": [64, 64],
+	"textures": {
+		"1": "walmart:furniture/signs"
+	},
+	"elements": [
+		{
+			"from": [-1, 0, 7],
+			"to": [17, 9.75, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [0, 1.5, 4.5, 3.9375], "texture": "#1"},
+				"east": {"uv": [5.1875, 1.5, 4.6875, 3.9375], "texture": "#1"},
+				"south": {"uv": [0, 1.5, 4.5, 3.9375], "texture": "#1"},
+				"west": {"uv": [4.6875, 1.5, 5.1875, 3.9375], "texture": "#1"},
+				"up": {"uv": [0, 3.9375, 4.5, 4.4375], "texture": "#1"},
+				"down": {"uv": [0, 4.4375, 4.5, 4.9375], "texture": "#1"}
+			}
+		},
+		{
+			"from": [-0.0782, 18.70685, 7],
+			"to": [25.9218, 20.70685, 9],
+			"rotation": {"angle": 0, "axis": "z", "origin": [12.9218, 19.70685, 8]},
+			"faces": {
+				"north": {"uv": [0, 0.5, 6.5, 1], "texture": "#1"},
+				"south": {"uv": [6.5, 0.5, 0, 1], "texture": "#1"},
+				"west": {"uv": [6.5, 0.5, 7, 1], "texture": "#1"},
+				"up": {"uv": [0, 0, 6.5, 0.5], "texture": "#1"},
+				"down": {"uv": [0, 1, 6.5, 1.5], "texture": "#1"}
+			}
+		},
+		{
+			"from": [2.3218, 9.75685, 8],
+			"to": [3.0718, 18.75685, 8],
+			"rotation": {"angle": 0, "axis": "z", "origin": [14.0718, 10.75685, 8]},
+			"faces": {
+				"north": {"uv": [4.5, 1.5, 4.6875, 3.75], "texture": "#1"},
+				"south": {"uv": [4.5, 1.5, 4.6875, 3.75], "texture": "#1"}
+			}
+		},
+		{
+			"from": [13.0782, 9.75685, 8],
+			"to": [13.8282, 18.75685, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2.0782, 10.75685, 8]},
+			"faces": {
+				"north": {"uv": [4.6875, 1.5, 4.5, 3.75], "texture": "#1"},
+				"south": {"uv": [4.6875, 1.5, 4.5, 3.75], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 3.5],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"translation": [0, 7, 0]
+		},
+		"ground": {
+			"translation": [0, 5, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, 3.5, 0],
+			"scale": [0.9, 0.9, 0.9]
+		},
+		"fixed": {
+			"translation": [0, 8, 0]
+		}
+	}
+}

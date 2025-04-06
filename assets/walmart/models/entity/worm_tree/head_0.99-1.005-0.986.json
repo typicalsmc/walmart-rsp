@@ -1,0 +1,10 @@
+{
+	"parent": "walmart:entity/worm_tree/head",
+	"display": {
+		"head": {
+			"translation": [0, -3.184, 0],
+			"scale": [0.99, 1.005, 0.986],
+			"rotation": [0, 0, 0]
+		}
+	}
+}
