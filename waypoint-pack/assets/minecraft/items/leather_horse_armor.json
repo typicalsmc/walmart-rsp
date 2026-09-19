@@ -1,0 +1,149 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "model",
+      "tints": [
+        {
+          "type": "dye",
+          "default": -6265536
+        }
+      ],
+      "model": "item/leather_horse_armor"
+    },
+    "entries": [
+      {
+        "threshold": 159,
+        "model": {
+          "type": "model",
+          "tints": [
+            {
+              "type": "dye",
+              "default": -6265536
+            }
+          ],
+          "model": "walmart:shaders/waypoint_empty"
+        }
+      },
+      {
+        "threshold": 219,
+        "model": {
+          "type": "model",
+          "tints": [
+            {
+              "type": "dye",
+              "default": -6265536
+            }
+          ],
+          "model": "walmart:shaders/waypoint_circle"
+        }
+      },
+      {
+        "threshold": 220,
+        "model": {
+          "type": "model",
+          "tints": [
+            {
+              "type": "dye",
+              "default": -6265536
+            }
+          ],
+          "model": "walmart:shaders/waypoint_circle_hollow"
+        }
+      },
+      {
+        "threshold": 221,
+        "model": {
+          "type": "model",
+          "tints": [
+            {
+              "type": "dye",
+              "default": -6265536
+            }
+          ],
+          "model": "walmart:shaders/waypoint_floor_0"
+        }
+      },
+      {
+        "threshold": 222,
+        "model": {
+          "type": "model",
+          "tints": [
+            {
+              "type": "dye",
+              "default": -6265536
+            }
+          ],
+          "model": "walmart:shaders/waypoint_floor_1"
+        }
+      },
+      {
+        "threshold": 224,
+        "model": {
+          "type": "model",
+          "tints": [
+            {
+              "type": "dye",
+              "default": -6265536
+            }
+          ],
+          "model": "walmart:shaders/waypoint_worm"
+        }
+      },
+      {
+        "threshold": 954,
+        "model": {
+          "type": "model",
+          "tints": [
+            {
+              "type": "dye",
+              "default": -6265536
+            }
+          ],
+          "model": "walmart:shaders/waypoint_mpe_pickaxe"
+        }
+      },
+      {
+        "threshold": 955,
+        "model": {
+          "type": "model",
+          "tints": [
+            {
+              "type": "dye",
+              "default": -6265536
+            }
+          ],
+          "model": "walmart:shaders/waypoint_mpe_shears"
+        }
+      },
+      {
+        "threshold": 956,
+        "model": {
+          "type": "model",
+          "tints": [
+            {
+              "type": "dye",
+              "default": -6265536
+            }
+          ],
+          "model": "walmart:shaders/waypoint_mpe_shovel"
+        }
+      },
+      {
+        "threshold": 957,
+        "model": {
+          "type": "model",
+          "tints": [
+            {
+              "type": "dye",
+              "default": -6265536
+            }
+          ],
+          "model": "walmart:shaders/waypoint_mpe_water"
+        }
+      }
+    ]
+  }
+}
